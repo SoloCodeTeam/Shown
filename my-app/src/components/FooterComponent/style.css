@@ -1,5 +1,5 @@
 .Footer{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(246, 246, 246);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,11 +90,11 @@
         margin: 2% 0;
     }
     .Footer ul li img{
-        width: 30vw;
+        width: 25vw;
     }
     .Footer ul li a{
-        margin: 3%;
-        font-size: 3vw;
+        margin: 2.5%;
+        font-size: 2.3vw;
     }
     .Footer span a{
         margin: 0 10%;
