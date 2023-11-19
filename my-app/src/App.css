@@ -9,9 +9,13 @@ ul, ol, li {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .container {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
+}
+body {
+  font-family: Arial, sans-serif;
 }
