@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import NavbarComponents from './components/NavbarComponents';
+import React from 'react';
+import Navbar from './components/NavbarComponents\'/NavbarComponents';
+
 function App() {
   return (
-    <div className="container">
+    <div>
       <>
-      <NavbarComponents />
+        <Navbar />
       </>
     </div>
   );
