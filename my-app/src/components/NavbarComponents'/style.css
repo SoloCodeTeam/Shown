@@ -1,9 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+
 .nav {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -17,6 +12,7 @@ body {
   color: white;
   margin: 0 auto;
   text-align: center;
+  z-index: 999;
 }
 .nav-links {
   list-style: none;
@@ -46,7 +42,7 @@ body {
 }
 .nav-links li:hover {
   background: #fff;
-  color: #FF6BC1;
+  color: #0F70DA;
   text-decoration: underline;
 }
 .menu {
@@ -78,20 +74,20 @@ body {
   font-size: 16px;
   background: none;
   color: #fff;
-  border: 2px solid #FF6BC1;
+  border: 2px solid #0F70DA;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  background-color: #FF6BC1;
+  background-color: #0F70DA;
 }
 .buttons button:nth-child(1):hover {
   background: #fff;
-  color: #FF6BC1;
+  color: #0F70DA;
   text-decoration: underline;
 }
 .buttons button:nth-child(2):hover {
   background-color: #fff;
-  color: #FF6BC1;
+  color: #0F70DA;
   text-decoration: underline;
 }
 @media (min-width: 768px) {
@@ -141,9 +137,6 @@ body {
     padding: 2px;
     display: flex;
     justify-content: space-between;
-  }
-  .logo {
-    width: 20px;
   }
   .buttons button:nth-child(2) {
     margin-left: 0px;
