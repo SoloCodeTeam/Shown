@@ -87,11 +87,14 @@
     }
     .Footer ul li{
         width: 40%;
-        margin: 1% 0;
+        margin: 2% 0;
     }
-    .Footer ul a{
-        margin: 0;
-        font-size: 20vw;
+    .Footer ul li img{
+        width: 30vw;
+    }
+    .Footer ul li a{
+        margin: 3%;
+        font-size: 3vw;
     }
     .Footer span a{
         margin: 0 10%;
