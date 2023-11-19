@@ -19,6 +19,7 @@
     margin: 10% 0;
     color: black;
     font-size: 1vw;
+    width: max-content;
 }
 .Footer ul li img{
     width:  15vw;
@@ -31,11 +32,12 @@
 }
 .Footer .underBox{
     display: flex;
-    justify-content:space-around;
 }
 .Footer .underBox p{
     font-size: 1.2vw;
     color: gray;
+    margin-right: 60%;
+    margin-left: 5%;
 }
 .Footer span{
     display: flex;
@@ -46,6 +48,7 @@
     color: #FF6BC1;
     cursor: pointer;
     font-size: 1.5vw;
+    margin-right: 5%;
 }
 .Footer span a:hover{
     transform: translateY(-0.5vw);
@@ -55,19 +58,47 @@
         margin: 7% 0;
         font-size: 1.3vw;
     }
+    .Footer span a{
+        margin: 0 10%;
+        font-size: 2vw;
+    }
+    .Footer .underBox p{
+        font-size: 1.5vw;
+        margin-right: 50%;
+    }
 }
 @media(max-width: 700px){
     .Footer ul li a{
         margin: 5% 0;
         font-size: 2vw;
     }
+    .Footer span a{
+        margin: 0 10%;
+        font-size: 2.5vw;
+    }
+    .Footer .underBox p{
+        font-size: 2vw;
+        margin-right: 30%;
+    }
 }
-@media(max-width: 600px){
+@media(max-width: 650px){
     .Footer ul{
         flex-wrap: wrap;
     }
-    .Footer ul li a{
-        margin: 5% 0;
-        font-size: 2vw;
+    .Footer ul li{
+        width: 40%;
+        margin: 1% 0;
+    }
+    .Footer ul a{
+        margin: 0;
+        font-size: 20vw;
+    }
+    .Footer span a{
+        margin: 0 10%;
+        font-size: 3.5vw;
+    }
+    .Footer .underBox p{
+        font-size: 2.5vw;
+        margin-right: 25%;
     }
 }
