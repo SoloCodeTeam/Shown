@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  transition: .7s;
 }
 ul, ol, li {
   list-style: none;
