@@ -3,18 +3,25 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  transition: .7s;
 }
 ul, ol, li {
   list-style: none;
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .container {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 img {
   width: 100%;
+=======
+body {
+  font-family: Arial, sans-serif;
+>>>>>>> 160a4e8e2f67dfecc8b96ed515176a2c8826abbd
 }

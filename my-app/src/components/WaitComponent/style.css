@@ -1,0 +1,65 @@
+.Wait{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    padding: 3% 10%;
+}
+.Wait div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.Wait h1{
+    font-size: 2.5vw;
+    color: black;
+}
+.Wait p{
+    margin: 5% 0;
+    font-size: 1.3vw;
+    width: 50%;
+    color: rgb(123, 123, 123);
+}
+.Wait a{
+    color: #FF6BC1;
+    font-size: 1.3vw;
+    padding: 1% 10%;
+    border: 0.1vw solid #FF6BC1;
+    border-radius: .5vw;
+}
+.Wait a:hover{
+    color: white;
+    background-color: #FF6BC1;
+}
+.Wait img{
+    width: 55%;
+    margin-left: 5%;
+}
+@media(max-width: 900px) {
+    .Wait h1{
+        font-size: 3vw;
+    }
+    .Wait p{
+        margin: 5% 0;
+        font-size: 1.7vw;
+        width: 70%;
+    }
+    .Wait a{
+        font-size: 1.7vw;
+        padding: 1% 10%;
+    }
+}
+@media(max-width: 650px) {
+    .Wait h1{
+        font-size: 5vw;
+    }
+    .Wait p{
+        margin: 10% 0;
+        font-size: 2.5vw;
+        width: 100%;
+    }
+    .Wait a{
+        font-size: 2.5vw;
+        padding: 1% 10%;
+    }
+}
