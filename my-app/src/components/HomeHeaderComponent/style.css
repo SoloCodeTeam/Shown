@@ -1,0 +1,98 @@
+.homecardrow {
+    flex-direction: row-reverse;
+    padding-top: 80px;
+}
+.homecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+.homeCardLeft {
+    width: 100%;
+
+}
+.homeCardRight {
+    width: 100%;
+    padding: 0 0 0 2%;
+}
+.homeCardRightText p {
+    max-width: 400px;
+    margin-top: 19px;
+}
+.homeCardRightText h2 {
+    font-weight: 700;
+    font-size: 32px;
+    max-width: 400px;
+}
+.homeCardButton {
+    margin: 40px 40px 40px 0px;
+}
+.homeCardButton a {
+    font-size: 16px;  
+}
+.homeCardButton p {
+    margin-top: 3%;
+    color: #ABB1BA ;
+}
+@media (max-width: 925px) {
+    .homeCardRightText h2{
+        font-size: 2.8vw;
+    }
+    .homeCardRightText p,
+    .homeCardButton p{
+        font-size: 1.8vw;
+    }
+}
+@media (max-width: 830px) {
+    .homeCardButton {
+        margin: 30px 30px 30px 0px;
+    }
+}
+@media (max-width: 640px) {
+    .homecard{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .homeCardLeft {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+    .homeCardRightText {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto !important;
+        padding: 0 auto;
+    }
+    .homeCardRightText h2{
+        font-size: 6.5vw;
+    }
+    .homeCardRightTextdivh2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0 auto;
+    }
+    .homeCardRightTextdivp {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .homeCardRightText p,
+    .homeCardButton p{
+        font-size: 4.5vw;
+        text-align: center;
+        width: 100%;
+    }
+    .homeCardRightText {
+        padding: 0 5%;
+        margin:  0 auto;
+    }
+}

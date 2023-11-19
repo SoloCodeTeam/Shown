@@ -17,11 +17,24 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
 img {
   width: 100%;
-=======
+}
 body {
   font-family: Arial, sans-serif;
->>>>>>> 160a4e8e2f67dfecc8b96ed515176a2c8826abbd
+}
+.blueButton{
+  padding: 8px 39px;
+  background: none;
+  color: #fff;
+  border: 2px solid #0F70DA;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #0F70DA;
+}
+.blueButton:hover {
+  background-color: #fff;
+  color: #0F70DA;
+  text-decoration: underline;
 }

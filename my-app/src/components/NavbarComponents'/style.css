@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 160a4e8e2f67dfecc8b96ed515176a2c8826abbd
 .nav {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .nav nav {
   position: relative;

@@ -1,12 +1,8 @@
-.sectioncardrow {
-    /* flex-direction: row-reverse; */
-
-}
 .sectioncard {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
+    padding: 90px 0;
     margin: 0 auto;
 }
 .sectionCardLeft {

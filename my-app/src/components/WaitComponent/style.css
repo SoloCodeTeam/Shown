@@ -21,15 +21,15 @@
     color: rgb(123, 123, 123);
 }
 .Wait a{
-    color: #FF6BC1;
+    color: #0F70DA;
     font-size: 1.3vw;
     padding: 1% 10%;
-    border: 0.1vw solid #FF6BC1;
+    border: 0.1vw solid #0F70DA;
     border-radius: .5vw;
 }
 .Wait a:hover{
     color: white;
-    background-color: #FF6BC1;
+    background-color: #0F70DA;
 }
 .Wait img{
     width: 55%;
