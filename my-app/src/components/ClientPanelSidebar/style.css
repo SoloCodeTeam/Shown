@@ -2,7 +2,7 @@
     width: 15%;
     background-color: rgb(242, 242, 242);
     border-right: .1vw solid rgb(169, 168, 168);
-    height: 100vw;
+    height: 100vh;
     position: fixed;
     display: flex;
     flex-direction: column;
