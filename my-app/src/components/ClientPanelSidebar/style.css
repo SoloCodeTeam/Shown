@@ -1,0 +1,51 @@
+.ClientPanelSidebar{
+    width: 15%;
+    background-color: rgb(242, 242, 242);
+    border-right: .1vw solid rgb(169, 168, 168);
+    height: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 3% 1.5%;
+}
+.ClientPanelSidebar .sidetop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+}
+.ClientPanelSidebar .sidetop span{
+    background-color: rgb(72, 72, 232);
+    color: white;
+    padding: 10% 15%;
+    font-size: 1.5vw;
+    border-radius: .5vw;
+    margin-right: 15%;
+}
+.ClientPanelSidebar .sidetop h2{
+    font-size: 1.7vw;
+    color: rgb(51, 51, 51);
+}
+.ClientPanelSidebar .sidebottom button{
+    display: flex;
+    align-items: center;
+    margin: 20% 0;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    transition: .2s;
+}
+.ClientPanelSidebar .sidebottom button:hover{
+    transform: translateX(1vw);
+    color:  #0F70DA;
+}
+.ClientPanelSidebar .sidebottom button i{
+    font-size: 1.5vw;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.ClientPanelSidebar .sidebottom button h3{
+    font-size: 1.3vw;
+    width: max-content;
+    cursor: pointer;
+    display: flex;
+}
