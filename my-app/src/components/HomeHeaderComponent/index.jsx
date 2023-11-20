@@ -27,10 +27,10 @@ function HomeHeaderComponent() {
                     <p>1358 companies signed up in the last week alone!</p>
                   </div>
                 </div>
-
-
-
               </div>
+            </div>
+            <div className="homeheadersection">
+              <img src="https://shown.io/static/images/app-screenshot.png" alt="" />
             </div>
           </div>
         </div>

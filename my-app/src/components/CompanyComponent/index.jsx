@@ -2,6 +2,7 @@ import "./style.css"
 
 export function CompanyComponent() {
     return(
+        <div>
         <div className="Company">
             <h1>You Are in Good Company</h1>
             <p>More than 20 000 businesses trust Shown with their marketing and peace of mind. See what they have to say about us:</p>
@@ -22,6 +23,7 @@ export function CompanyComponent() {
                     <h3>Baptiste Michiels</h3>
                 </li>
             </ul>
+        </div>
         </div>
     )
 }

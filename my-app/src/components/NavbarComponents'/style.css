@@ -3,6 +3,7 @@
   position: fixed;
   width: 100%;
   z-index: 9999;
+  background-color: #fff;
 }
 .nav nav {
   position: relative;
@@ -14,7 +15,7 @@
   color: white;
   margin: 0 auto;
   text-align: center;
-  z-index: 999;
+  z-index: 9999;
 }
 .nav-links {
   list-style: none;

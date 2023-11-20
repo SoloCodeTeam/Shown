@@ -2,6 +2,7 @@ import "./style.css"
 
 export function WaitComponent() {
     return (
+        <div>
         <div className="Wait">
             <div>
                 <h1>What are you waiting for?</h1>
@@ -9,6 +10,7 @@ export function WaitComponent() {
                 <a href="#">Create a account</a>
             </div>
             <img src="https://shown.io/static/images/search-banner.svg" alt="simpleimg" />
+        </div>
         </div>
     )
 }

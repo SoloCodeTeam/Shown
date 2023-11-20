@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css"
 function HomeSectionComponents() {
     return (
+      <div>
         <div className='HomeSectionComponents'>
         <div className="container">
           <div className="sectioncard sectioncardrow">
@@ -22,6 +23,7 @@ function HomeSectionComponents() {
             </div>
           </div>
         </div>
+    </div>
     </div>
     )
 }

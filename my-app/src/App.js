@@ -6,17 +6,22 @@ import HomeSectionComponents from './components/HomeSectionComponents/HomeSectio
 import HomeSectionComponentsTwo from './components/HomeSectionComponentsTwo/HomeSectionComponentsTwo';
 import HomeHeaderComponent from './components/HomeHeaderComponent';
 import { WaitComponent } from './components/WaitComponent';
+import HomeSectionShownwillComponent from './components/homeSectionShownwillComponent/index';
+import HomeSectionCard from './components/Cards';
 function App() {
   return (
     <div>
       <>
         <Navbar />
         <HomeHeaderComponent />
+        <HomeSectionShownwillComponent />
+        {/* <HomeSectionCard /> */}
         <HomeSectionComponents />
         <HomeSectionComponentsTwo />
-        <WaitComponent/>
-        <CompanyComponent/>
-        <FooterComponent/>
+        <WaitComponent />
+        <CompanyComponent />
+        <FooterComponent />
+
       </>
     </div>
   );

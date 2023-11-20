@@ -25,6 +25,7 @@
     font-weight: 700;
     font-size: 32px;
     max-width: 400px;
+    margin-top: 20px;
 }
 .homeCardButton {
     margin: 40px 40px 40px 0px;
@@ -35,6 +36,9 @@
 .homeCardButton p {
     margin-top: 3%;
     color: #ABB1BA ;
+}
+.homeheadersection {
+    margin: 40px 0;
 }
 @media (max-width: 925px) {
     .homeCardRightText h2{

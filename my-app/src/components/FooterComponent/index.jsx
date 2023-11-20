@@ -2,6 +2,7 @@ import "./style.css"
 
 export function FooterComponent() {
      return(
+        <>
         <div className="Footer">
             <ul>
                 <li>
@@ -43,5 +44,6 @@ export function FooterComponent() {
                 </span>
             </div>
         </div>
+        </>
      )
 }
