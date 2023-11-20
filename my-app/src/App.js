@@ -9,20 +9,22 @@ import { WaitComponent } from './components/WaitComponent';
 import HomeSectionShownwillComponent from './components/homeSectionShownwillComponent/index';
 import HomeSectionCard from './components/Cards';
 import LoginPage from './pages/LoginPage';
+import { ClientPanel } from './pages/ClientPanel';
 function App() {
   return (
     <div>
       <>
-        <Navbar />
+        {/* <Navbar />
         <HomeHeaderComponent />
         <HomeSectionShownwillComponent />
-        {/* <HomeSectionCard /> */}
+        <HomeSectionCard />
         <HomeSectionComponents />
         <HomeSectionComponentsTwo />
         <WaitComponent />
         <CompanyComponent />
         <FooterComponent />
-        {/* <LoginPage/> */}
+        <LoginPage/> */}
+        <ClientPanel/>
       </>
     </div>
   );

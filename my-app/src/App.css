@@ -20,6 +20,10 @@ a {
 img {
   width: 100%;
 }
+button{
+  outline: none;
+  border: none;
+}
 body {
   font-family: Arial, sans-serif;
 }
