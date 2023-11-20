@@ -8,6 +8,7 @@ import HomeHeaderComponent from './components/HomeHeaderComponent';
 import { WaitComponent } from './components/WaitComponent';
 import HomeSectionShownwillComponent from './components/homeSectionShownwillComponent/index';
 import HomeSectionCard from './components/Cards';
+import LoginPage from './pages/LoginPage';
 function App() {
   return (
     <div>
@@ -21,7 +22,7 @@ function App() {
         <WaitComponent />
         <CompanyComponent />
         <FooterComponent />
-
+        {/* <LoginPage/> */}
       </>
     </div>
   );
