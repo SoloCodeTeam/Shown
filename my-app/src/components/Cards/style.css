@@ -6,7 +6,6 @@
 	 text-decoration: none;
 	 color: black;
 }
-
 .dfcardss {
 	display: flex;
 	justify-content: space-between;
@@ -17,11 +16,11 @@
     background-color: #f1f1f1;
 	padding: 60px 0;
 }
- .col {
+.col {
 	 padding: 1rem;
 
 }
- @media (min-width: 650px) {
+@media (min-width: 650px) {
 	 .col {
 		 width: 25%;
 		 float: left;
@@ -47,45 +46,42 @@
 		float: left;
    }
 }
- .card {
+.card {
 	 display: block;
 	 text-align: center;
 	 color: #000;
 }
- .card .content {
+.card .content {
 	 padding: 4rem 1rem;
 }
- .card .title {
+.card .title {
 	 font-size: 1.25rem;
 	 background-color: gray;
 	 border-radius: 3px;
 	 padding: 0.5rem;
 }
-
- .card-3 .content {
-	 /* background-color: rgb(228, 227, 227) !important; */
+.card-3 .content {
 	 background-color: #ffffff !important;
 	 
 	 border-radius: 5px;
 }
- .card-3:before, .card-3:after {
+.card-3:before, .card-3:after {
 	 border-radius: 5px;
 }
- .card-3:before {
+.card-3:before {
 	 background-color: rgb(151, 151, 151) !important;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
  .card-3 .title, .card-3:after {
 	 background-color: rgb(151, 151, 151) !important;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
- [class*='stacked--'] {
+[class*='stacked--'] {
 	 position: relative;
 	 transition: transform 0.3s ease-in-out;
 	 will-change: transform;
 }
- [class*='stacked--']:before, [class*='stacked--']:after {
+[class*='stacked--']:before, [class*='stacked--']:after {
 	 content: '';
 	 position: absolute;
 	 top: 0;
@@ -96,23 +92,22 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	 transition: transform 0.3s ease-in-out;
 	 will-change: transform;
 }
- [class*='stacked--']:before {
+[class*='stacked--']:before {
 	 z-index: -1;
 }
- [class*='stacked--']:after {
+[class*='stacked--']:after {
 	 z-index: -2;
 }
-
- .stacked--up:before, .stacked--up:after {
+.stacked--up:before, .stacked--up:after {
 	 transform-origin: center bottom;
 }
- .stacked--up:hover {
+.stacked--up:hover {
 	 transform: translate(0, -5px);
 }
- .stacked--up:hover:before {
+.stacked--up:hover:before {
 	 transform: translate(0, 5px) scale(0.95);
 }
- .stacked--up:hover:after {
+.stacked--up:hover:after {
 	 transform: translate(0, 10px) scale(0.9);
 }
 .cardIcon {
@@ -125,5 +120,4 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .cardIcon img{
 	width: 100px !important;
 	height: 100px !important;
-
 }
