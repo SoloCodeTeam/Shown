@@ -1,0 +1,21 @@
+.showntextdiv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.ShownwillText h2{
+    padding: 30px 0;
+    padding-top: 60px;
+    font-weight: 550;
+    font-size: 28px;
+    max-width: 450px;
+    margin-top: 20px;
+}
+.ShownwillText p{
+    max-width: 450px;
+    font-size: 18px;
+    padding: 0 35px;
+}
+.homeSectionShownwillComponent {
+    background-color: #f1f1f1;
+}

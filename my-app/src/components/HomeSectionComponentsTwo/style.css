@@ -1,0 +1,71 @@
+.sectioncard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+    margin: 0 auto;
+}
+.sectionCardLeft {
+    width: 100%;
+    padding-left: 10%;
+}
+.sectionCardRight {
+    width: 100%;
+    padding: 0 0 0 2%;
+}
+.sectionCardRightText p {
+    max-width: 400px;
+    margin-top: 19px;
+}
+.sectionCardRightText h2 {
+    font-size: 28px;
+}
+@media (max-width: 925px) {
+    .sectionCardRightText h2{
+        font-size: 3.5vw;
+    }
+    .sectionCardRightText p{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 640px) {
+    .sectioncard{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sectionCardLeft {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+    .sectionCardRightText {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto !important;
+        padding: 0 auto;
+    }
+    .sectionCardRightText h2{
+        font-size: 6.5vw;
+    }
+    .sectionCardRightTextdivp {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .sectionCardRightText p{
+        font-size: 4.5vw;
+        text-align: center;
+        width: 100%;
+    }
+    .sectionCardRightText {
+        padding: 0 5%;
+        margin:  0 auto;
+    }
+}
+@media (max-width: 465px) {
+
+}

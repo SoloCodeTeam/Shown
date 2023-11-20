@@ -1,0 +1,69 @@
+.Company{
+    padding: 5% 10%;
+}
+.Company h1{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(68, 68, 68);
+}
+.Company p{
+    text-align: center;
+    width: 50%;
+    margin: 2% auto;
+    font-size: 1.5vw;
+    color: rgb(102, 102, 102);
+}
+.Company ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.Company ul li{
+    text-align: center;
+}
+.Company ul li:hover{
+    transform: translateY(-1vw);
+}
+.Company ul p{
+    margin: 5% auto;
+    width: 70%;
+}
+.Company ul img{
+    width: 40%;
+}
+.Company ul h3{
+    font-size: 1.2vw;
+}
+@media(max-width: 700px){
+    .Company p{
+        margin: 3% auto;
+        font-size: 1.7vw;
+        width: 70%;
+    }
+    .Company ul h3{
+        font-size: 1.5vw;
+    }
+    .Company ul img{
+        width: 50%;
+    }
+    .Company h1{
+        font-size: 3vw;
+    }
+}
+@media(max-width: 500px){
+    .Company p{
+        margin: 3% auto;
+        font-size: 2vw;
+        width: 70%;
+    }
+    .Company ul h3{
+        font-size: 1.8vw;
+    }
+    .Company ul img{
+        width: 60%;
+    }
+    .Company h1{
+        font-size: 4    vw;
+    }
+}
