@@ -39,6 +39,7 @@
 }
 .homeheadersection {
     margin: 40px 0;
+    width: 50%;
 }
 @media (max-width: 925px) {
     .homeCardRightText h2{
