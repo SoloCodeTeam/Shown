@@ -1,3 +1,11 @@
 .ClientPanel{
 	display: flex;
 }
+.ClientPanel .container{
+	margin: 0 auto;
+}
+@media(max-width: 700px){
+    .ClientPanel .ImportantThing{
+        display: none;
+    }
+}
