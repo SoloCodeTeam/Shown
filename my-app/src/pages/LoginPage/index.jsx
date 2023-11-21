@@ -15,6 +15,10 @@ function LoginPage() {
                     <h3>Email</h3>
                     <input type="text" placeholder='Enter your email' />
                 </div>
+                <div className="signBoxes">
+                    <h3>Referal</h3>
+                    <input type="text" placeholder='Enter your optional' />
+                </div>
                 <div className="signInside">
                     <div className="signBoxes">
                         <h3>First Name</h3>
