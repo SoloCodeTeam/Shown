@@ -4,9 +4,7 @@ function App() {
   return (
     <div>
       <>
-      <div className="App">
         <RoutesComponent/>
-      </div>
       </>
     </div>
   );

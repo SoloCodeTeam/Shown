@@ -1,3 +1,6 @@
 .ClientPanel{
-	display: flex;	
+	display: flex;
+}
+.ClientPanel .container{
+	padding-left: 16%;
 }

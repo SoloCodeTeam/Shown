@@ -1,0 +1,32 @@
+.ClientPanelModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+.ClientPanelModal img{
+    width: 20%;
+}
+.ClientPanelModal h1{
+    font-size: 3vw;
+    color: orangered;
+}
+.ClientPanelModal p{
+    margin: 1% 0;
+    font-size: 1.5vw;
+    color: rgb(63, 63, 63);
+}
+.ClientPanelModal a{
+    font-size: 1.5vw;
+    color: white;
+    background-color: #0F70DA;
+    border: .1vw solid #0F70DA;
+    padding: 1% 2%;
+    margin-top: 2%;
+    border-radius: 1vw;
+}
+.ClientPanelModal a:hover{
+    color: #0F70DA;
+    background-color: white;
+}

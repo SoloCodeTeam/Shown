@@ -2,6 +2,7 @@ import { Routes , Route } from "react-router-dom"
 import {DataRouter} from './data-router'
 import { Suspense } from "react";
 import Loading from "../components/Loading/Loading";
+import { Loading } from "../components/Loading";
 function RoutesComponent() {
     return(
         <>
