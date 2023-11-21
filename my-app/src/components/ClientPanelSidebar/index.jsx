@@ -2,6 +2,7 @@ import { useRef } from "react"
 import "./style.css"
 
 export function ClientPanelSidebar() {
+    const sidebar = useRef()
     const SidebarModal = () => {
         
     }
@@ -13,7 +14,7 @@ export function ClientPanelSidebar() {
                         <span>N</span>
                         <h1>Nice</h1>
                     </div>
-                    <div className="sidebottom">
+                    <div ref={sidebar} className="sidebottom">
                         <button id="dashboard" onClick={(e) => window.location.pathname = `/client/${e.target.id}`}>
                             <h3 id="dashboard" className="fa-solid fa-table"></h3>
                             <h2 id="dashboard">Dashboard</h2>
