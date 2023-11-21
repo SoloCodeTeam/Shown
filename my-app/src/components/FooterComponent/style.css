@@ -37,7 +37,6 @@
     justify-content: space-evenly;
 }
 .Footer .underBox p{
-    /* font-size: 1.2vw; */
     color: gray;
 }
 .Footer span{
@@ -99,6 +98,6 @@
         font-size: 3.5vw;
     }
     .Footer span a{
-        font-size: 2.7vw;
+        font-size: 3.3vw;
     }
 }
