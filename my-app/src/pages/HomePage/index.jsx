@@ -7,3 +7,19 @@ import HomeHeaderComponent from '../../components/HomeHeaderComponent';
 import { WaitComponent } from '../../components/WaitComponent';
 import HomeSectionShownwillComponent from '../../components/homeSectionShownwillComponent/index';
 import HomeSectionCard from '../../components/Cards';
+
+export function Home() {
+    return(
+        <div className="Home">
+            <Navbar/>
+            <HomeHeaderComponent />
+            <HomeSectionShownwillComponent />
+            <HomeSectionCard />
+            <HomeSectionComponents />
+            <HomeSectionComponentsTwo />
+            <WaitComponent />
+            <CompanyComponent />
+            <FooterComponent />
+        </div>
+    )
+}
