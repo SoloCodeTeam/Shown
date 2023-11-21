@@ -2,6 +2,7 @@ import "./style.css"
 
 export function ClientPanelSidebar() {
     return(
+        <div className="container">
         <div className="ClientPanelSidebar">
                 <div className="sidetop">
                     <span>N</span>
@@ -33,6 +34,7 @@ export function ClientPanelSidebar() {
                         <h3 id="settings">Settings</h3>
                     </button>
                 </div>
+            </div>
             </div>
     )
 }

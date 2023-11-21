@@ -1,6 +1,6 @@
 import Home from '../pages/HomePage'
 import Login from '../pages/LoginPage'
-// import Client from '../pages/ClientPanel'
+import { ClientPanel } from '../pages/ClientPanel'
 
 export const DataRouter = [
     {
@@ -12,6 +12,11 @@ export const DataRouter = [
         id : 2,
         path : '/sign',
         Element : <Login/> 
+    },
+    {
+        id : 3,
+        path : '/client',
+        Element : <ClientPanel/> 
     }
 ]
 

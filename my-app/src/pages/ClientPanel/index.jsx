@@ -5,12 +5,12 @@ import "./style.css"
 
 export function ClientPanel(e) {
     console.log(e);
-    return(
+    return (
         <div className="ClientPanel">
-        <ClientPanelSidebar/>
-        <div className="container">
-            {e.data == "balance" ?<BalanceComponents /> : <ClientPanelModal/>}
-        </div>
+            <ClientPanelSidebar />
+            <div className="container">
+                {e.data == "balance" ? <BalanceComponents /> : <ClientPanelModal />}
+            </div>
         </div>
     )
 }
