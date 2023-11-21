@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 15%;
 }
 .ClientPanelModal img{
     width: 30%;
@@ -13,7 +14,7 @@
     color: orangered;
 }
 .ClientPanelModal p{
-    margin: 1% 0;
+    margin: 1% 1%;
     /* font-size: 1.5vw; */
     color: rgb(63, 63, 63);
 }
@@ -29,4 +30,20 @@
 .ClientPanelModal a:hover{
     color: #0F70DA;
     background-color: white;
+}
+@media(max-width: 900px){
+    .ClientPanelModal img{
+        width: 40%;
+    }
+    .ClientPanelModal{
+        margin-top: 30%;
+    }
+}
+@media(max-width: 700px){
+    .ClientPanelModal img{
+        width: 50%;
+    }
+    .ClientPanelModal{
+        margin-top: 45%;
+    }
 }
