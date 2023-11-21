@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../../images/img1.png'
 import "./style.css"
 function HomeSectionComponents() {
     return (
@@ -7,7 +8,7 @@ function HomeSectionComponents() {
         <div className="container">
           <div className="sectioncard sectioncardrow">
             <div className="sectionCardLeft">
-              <img src="https://shown.io/static/images/publish-your-ads.svg" alt="" />
+              <img src={img1} alt="" />
             </div>
             <div className="sectionCardRight">
               <div className="sectionCardRight">

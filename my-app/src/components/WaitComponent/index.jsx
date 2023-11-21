@@ -1,4 +1,5 @@
 import "./style.css"
+import img3 from '../../images/img3.png'
 
 export function WaitComponent() {
     return (
@@ -9,7 +10,7 @@ export function WaitComponent() {
                 <p>Think of Shown as your automated marketing department, an AI that optimises ads for you, and around-the-clock support. Start under 5 minutes with our smart advertising platform.</p>
                 <a href="#">Create a account</a>
             </div>
-            <img src="https://shown.io/static/images/search-banner.svg" alt="simpleimg" />
+            <img src={img3} alt="simpleimg" />
         </div>
         </div>
     )
