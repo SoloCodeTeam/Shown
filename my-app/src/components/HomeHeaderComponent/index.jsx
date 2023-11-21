@@ -1,5 +1,5 @@
 import React from 'react'
-import img5 from '../../images/img5.png'
+// import img5 from '../../images/img5.png'
 import img4 from '../../images/img4.png'
 import "./style.css"
 function HomeHeaderComponent() {
@@ -32,7 +32,7 @@ function HomeHeaderComponent() {
               </div>
             </div>
             <div className="homeheadersection">
-              <img src={img5} alt="" />
+              {/* <img src={img5} alt="" /> */}
             </div>
           </div>
         </div>
