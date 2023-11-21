@@ -18,12 +18,12 @@
     background-color: rgb(72, 72, 232);
     color: white;
     padding: 10% 15%;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     border-radius: .5vw;
     margin-right: 15%;
 }
-.ClientPanelSidebar .sidetop h2{
-    font-size: 1.7vw;
+.ClientPanelSidebar .sidetop h1{
+    /* font-size: 1.7vw; */
     color: rgb(51, 51, 51);
 }
 .ClientPanelSidebar .sidebottom button{
@@ -38,13 +38,13 @@
     transform: translateX(1vw);
     color:  #0F70DA;
 }
-.ClientPanelSidebar .sidebottom button i{
-    font-size: 1.5vw;
+.ClientPanelSidebar .sidebottom button h3{
+    /* font-size: 1.5vw; */
     margin-right: 10%;
     cursor: pointer;
 }
-.ClientPanelSidebar .sidebottom button h3{
-    font-size: 1.3vw;
+.ClientPanelSidebar .sidebottom button h2{
+    /* font-size: 1.3vw; */
     width: max-content;
     cursor: pointer;
     display: flex;
