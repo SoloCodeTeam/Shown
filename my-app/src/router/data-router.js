@@ -1,5 +1,5 @@
 // import { lazy } from 'react'
-import { Home } from '../pages/HomePage'
+import { Home } from '../pages/HomePage/index'
 import { ClientPanel } from '../pages/ClientPanel'
 import LoginPage from '../pages/LoginPage'
 // const  Home  = lazy(() => import ('../pages/HomePage/index'))

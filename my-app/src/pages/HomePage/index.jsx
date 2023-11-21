@@ -6,7 +6,7 @@ import HomeSectionComponentsTwo from '../../components/HomeSectionComponentsTwo/
 import HomeHeaderComponent from '../../components/HomeHeaderComponent';
 import { WaitComponent } from '../../components/WaitComponent';
 import HomeSectionShownwillComponent from '../../components/homeSectionShownwillComponent/index';
-function Home() {
+export function Home() {
     return(
         <div className="Home">
             <Navbar/>
@@ -20,5 +20,3 @@ function Home() {
         </div>
     )
 }
-
-export default Home;
