@@ -49,3 +49,8 @@
     cursor: pointer;
     display: flex;
 }
+@media(max-width: 900px){
+    .ClientPanelSidebar{
+        padding: 4%;
+    }
+}
