@@ -1,11 +1,12 @@
 import './style.css'
-
 function LoginPage() {
   return (
     <div className="LoginPage">
+            <button onClick={(e) => window.location.pathname = `/${e.target.id}`}>
         <div className="LoginPagePath">
             <i className='fa-solid fa-caret-left'></i>
         </div>
+        </button>
         <div className="LoginPageBox">
             <img src="https://shown.io/static/images/logo.svg" alt="" />
             <h1>Create your account</h1>

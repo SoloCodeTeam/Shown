@@ -18,8 +18,8 @@ function Navbar() {
               <p> Menu</p>
             </div>
             <div className="buttons">
-              <button>Sign Up</button>
-              <button>Start</button>
+              <button onClick={(e) => window.location.pathname = `/Client/${e.target.id}`}>Log In</button>
+              <button onClick={(e) => window.location.pathname = `/Sign/${e.target.id}`}>Sign Up</button>
             </div>
           </div>
         </nav>
