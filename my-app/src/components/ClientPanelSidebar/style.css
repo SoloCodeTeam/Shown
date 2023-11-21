@@ -49,8 +49,22 @@
     cursor: pointer;
     display: flex;
 }
+.SidebarBars{
+    display: none;
+	margin: 15%;
+}
 @media(max-width: 900px){
     .ClientPanelSidebar{
+        padding: 4% 3%;
+    }
+}
+@media(max-width: 700px){
+    .ClientPanelSidebar{
         padding: 4%;
+        display: none;
+    }
+    .SidebarBars{
+        margin: 5%;
+        display: block;
     }
 }
