@@ -137,13 +137,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  background: #F5F9FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 body .dribbble {
   position: fixed;
   display: block;

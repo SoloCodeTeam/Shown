@@ -4,7 +4,6 @@ import img4 from '../../images/img4.png'
 import "./style.css"
 function HomeHeaderComponent() {
   return (
-
     <div>
       <>
         <div className="HomeHeaderComponent">

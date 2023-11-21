@@ -1,6 +1,11 @@
-import Home from '../pages/HomePage'
-import Login from '../pages/LoginPage'
-// import Client from '../pages/ClientPanel'
+// import { lazy } from 'react'
+import { Home } from '../pages/HomePage/index'
+import { ClientPanel } from '../pages/ClientPanel'
+import LoginPage from '../pages/LoginPage'
+// const  Home  = lazy(() => import ('../pages/HomePage/index'))
+// const  NotFoundPage  = lazy(() => import ('../pages/NotFoundPage/NotFoundPage'))
+// const Sign = lazy(() => import("../pages/LoginPage/index"))
+// const ClientPanel = lazy(() => import("../pages/ClientPanel/index"))
 
 export const DataRouter = [
     {
@@ -10,9 +15,28 @@ export const DataRouter = [
     },
     {
         id : 2,
-        path : '/sign',
-        Element : <Login/> 
+        path : '/Client',
+        Element : <ClientPanel/>
+    },
+    {
+        id : 3,
+        path : '/Sign',
+        Element : <LoginPage/>
+    },
+    {
+        id : 3,
+        path : '/client/balance',
+        Element : <ClientPanel data="balance"/>
+    },
+    {
+        id : 3,
+        path : '/client/*',
+        Element : <ClientPanel data="other"/>
     }
+    // ,
+    // {
+    //     id : 4,
+    //     path : '/*',
+    //     Element : <NotFoundPage/>
+    // }
 ]
-
-// export default DataRouter;
