@@ -51,7 +51,7 @@
 }
 .SidebarBars{
     display: none;
-	margin: 15%;
+	margin: 100%;
 }
 @media(max-width: 900px){
     .ClientPanelSidebar{
@@ -64,7 +64,6 @@
         display: none;
     }
     .SidebarBars{
-        margin: 5%;
         display: block;
     }
 }

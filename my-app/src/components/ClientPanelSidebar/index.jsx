@@ -1,9 +1,13 @@
+import { useRef } from "react"
 import "./style.css"
 
 export function ClientPanelSidebar() {
+    const SidebarModal = () => {
+        
+    }
     return(
         <div className="ClientSidebar">
-            <h2 className="fa-solid fa-bars SidebarBars"></h2>
+            <h2 className="fa-solid fa-bars SidebarBars" onClick={() => SidebarModal()}></h2>
             <div className="ClientPanelSidebar">
                     <div className="sidetop">
                         <span>N</span>
@@ -35,7 +39,7 @@ export function ClientPanelSidebar() {
                             <h2 id="settings">Settings</h2>
                         </button>
                     </div>
-                </div>
+            </div>
         </div>
     )
 }
