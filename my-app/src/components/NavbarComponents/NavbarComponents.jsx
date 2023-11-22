@@ -6,12 +6,15 @@ function Navbar() {
     <div className="nav">
       <div className="container">
         <nav>
-          <div className="logo"><img src="https://shown.io/static/images/logo.svg" alt="eror"/></div>
+          <div className="logo"><img src="https://shown.io/static/images/logo.svg" alt="eror" /></div>
           <ul className={isOpen ? 'nav-links showNav' : 'nav-links'}>
             <li>Main</li>
             <li>Call</li>
             <li>About</li>
             <li>Service</li>
+            <li>
+              {/* <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} /> */}
+            </li>
           </ul>
           <div className="ccar">
             <div className="menu" onClick={() => setIsOpen(!isOpen)}>
