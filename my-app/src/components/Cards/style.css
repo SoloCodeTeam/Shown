@@ -66,7 +66,7 @@
 	width: 90%;
    }
 }
-@media (max-width: 766px) {
+@media (max-width: 666px) {
 	.cardIcon i{
 		font-size: 14vw !important;
 	}

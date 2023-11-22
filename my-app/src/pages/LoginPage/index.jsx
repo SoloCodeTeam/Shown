@@ -1,4 +1,5 @@
 import './style.css'
+import { NavLink } from 'react-router-dom';
 function LoginPage() {
 
     return (
@@ -53,6 +54,7 @@ function LoginPage() {
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
                                 <div className="LeftLogo">
+                                    
                                     <img src="https://shown.io/static/images/logo.svg" alt="" />
                                 </div>
                                 <div className="LeftText">
@@ -108,7 +110,7 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
-                                            <input type="submit" value="Log In" className='blueButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
+                                            <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
                                         </span>
                                     </form>
                                 </div>

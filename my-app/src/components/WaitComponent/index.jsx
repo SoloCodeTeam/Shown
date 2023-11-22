@@ -10,7 +10,9 @@ export function WaitComponent() {
                     <p>Think of Shown as your automated marketing department, an AI that optimises ads for you, and around-the-clock support. Start under 5 minutes with our smart advertising platform.</p>
                     <a href="#">Create a account</a>
                 </div>
+                <div>
                 <img src={img3} alt="simpleimg" />
+                </div>
             </div>
         </div>
     )

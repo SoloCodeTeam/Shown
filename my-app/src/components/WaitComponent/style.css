@@ -14,7 +14,6 @@
     justify-content: center;
 }
 .Wait h1{
-    /* font-size: 2.5vw; */
     color: black;
 }
 .Wait p{
@@ -52,7 +51,26 @@
         padding: 1% 10%;
     }
     .Wait img{
+        width: 50%;
+    }
+}
+@media(max-width: 768px) {
+    .Wait .container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .WaitTexts h1, .WaitTexts p, .WaitTexts a{
+        margin: 3% auto;
+    }
+    .WaitTexts p, .WaitTexts a{
+        font-size: 2vw;
+    }
+    .Wait img{
         width: 60%;
+        padding-top: 5%;
     }
 }
 @media(max-width: 650px) {
