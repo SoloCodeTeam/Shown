@@ -1,8 +1,179 @@
+<<<<<<< HEAD
 
+=======
+/* .LoginPage{
+    overflow: hidden;
+    transition: .3s;
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    cursor: default;
+}
+.LoginPagePath a{
+    background-color: #f7f7f7;
+    color: #478EF2;
+    padding: 1% 1.6%;
+    font-size: 2vw;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 3%;
+    left: 2%;
+}
+.LoginPagePath a:hover{
+    background-color: #478EF2;
+    color: #f7f7f7;
+}
+.LoginPageBox{
+    text-align: center;
+    padding: 2%;
+    border-radius: 2vw;
+    color: #478EF2;
+    background-color: #f7f7f7;
+}
+.LoginPageBox img{
+    width: 40%;
+    margin-bottom: 4%;
+}
+.LoginPageBox h1{
+    margin: 4% 0;
+    font-size: 2.6vw;
+}
+.LoginPageBox p{
+    margin: 2% 0;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+.LoginPage form{
+    text-align: left;
+    border-radius: 1vw;
+    margin: 2% 0;
+}
+.LoginPage form h3{
+    font-size: 1.2vw;
+    margin-left: auto;
+}
+.LoginPage form input{
+    width: 100%;
+    outline: none;
+    color: #478EF2;
+    background-color: white;
+    border: .1vw solid rgb(235, 235, 235);
+    border-radius: .8vw;
+    padding: 2.6%;
+    margin: 2%;
+    font-size: 1.3vw;
+}
+.LoginPage form input:hover{
+    border: .1vw solid #478EF2;
+}
+.LoginAddInput{
+    padding: 5.4% !important;
+}
+.LoginPage .signBoxes{
+    margin: 2%;
+}
+.LoginPage .signInside{
+    display: flex;
+}
+.LoginPageBox .LoginBoxess{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+.LoginPageBox .LoginBoxess h2{
+    font-size: 1.2vw;
+}
+.LoginPage .LoginBoxess .Logincheck{
+    margin: 2%;
+    width: min-content;
+}
+.LoginPage form button{
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.3vw;
+    outline: none;
+    border: 0.1vw solid #478EF2;
+    background-color: #f7f7f7;
+    color: #478EF2;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: .8vw;
+}
+.LoginPage form button:hover{
+    border: 0.1vw solid #f7f7f7;
+    background-color: #478EF2;
+    color: #f7f7f7;
+}
+@media  (max-width:600px) {
+    .LoginPageBox{
+        width: 100%;
+        height: 100vh;
+        padding: 8%;
+    }
+    .LoginPageBox img{
+        width: 45%;
+        margin-bottom: 8%;
+    }
+    .LoginPagePath a{
+        font-size: 6vw;
+        padding: 3% 5%;
+        left: 4%;
+    }
+    .LoginPageBox h1{
+        font-size: 7vw;
+        margin: 0;
+    }
+    .LoginPageBox p{
+        font-size: 3vw;
+    }
+    .LoginPage form{
+        margin: 6% 0;
+    }
+    .LoginPage form h3{
+        font-size: 3.4vw;
+    }
+    .LoginPage form input{
+        font-size: 3.4vw;
+        padding: 5%;
+        margin: 1%;
+        border-radius: 2vw;
+    }
+    .LoginAddInput{
+        padding: 9% !important;
+    }
+    .LoginPageBox .LoginBoxess h2{
+        font-size: 3.8vw;
+    }
+    .LoginPage form button{
+        padding: 4%;
+        font-size: 4vw;
+        border: .3vw solid #478EF2;
+        border-radius: 2vw;
+    }
+} */
+.LoginPage{
+    width: 100%;
+    height: 100vh;
+}
+>>>>>>> a64dd73f0f93a50ff0948ee6e447806396d061de
 .LeftText {
+    text-align: center;
     padding: 20px 0;
 }
-
+.LeftText h2{
+    font-size: 3vw;
+    margin: 1%;
+}
+.LeftLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 .LoginPagedfDiv {
     display: flex;
     max-height: 100vh;
@@ -12,8 +183,11 @@
 }
 
 .LoginPageLeftdiv {
-    padding: 10px 30px 0 50PX;
+    padding: 3%;
+    padding-bottom: 10%;
     /* margin: 30px 0 30px 0; */
+    margin-right: 50%;
+
 }
 
 .LeftLogo {
@@ -23,6 +197,8 @@
 
 .LEftInputs {
     font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
 }
 
 .fnamediv {
@@ -161,7 +337,7 @@ input:focus~.bar:after {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 }
 
 .ssapd input {
@@ -477,8 +653,10 @@ input:focus~.bar:after {
 }
 
 .LoginPageRightDiv {
-    max-height: 100%;
-    height: 700px;
+    right: 0;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -500,13 +678,21 @@ input:focus~.bar:after {
     }
 
     .ssapd input {
-        width: 80%;
+        width: 70%;
         margin-bottom: 60px;
 
     }
+    .LeftLogo{
+        width: 100% !important;
+        margin-left: 25%;
+    }
+    .LeftLogo img{
+        width: 60%;
+    }
     .LoginPageLeftdiv {
-        /* margin: 0 4dvb 0 0px; */
         width: 100%;
+        margin: 0;
+        padding: 5% 10%;
     }
     .fnamediv {
         width: 100%;
@@ -520,13 +706,24 @@ input:focus~.bar:after {
         max-width: 100%;
     }
     .group {
-        width: 100%;
+        width: 80%;
         margin:   20px 0;
     }
+<<<<<<< HEAD
     .LoginPage {
         padding: 0 2%;
     }
     .ssapdButton{
         font-size: 16px;
+=======
+}
+
+@media (max-width: 650px){
+    .LeftLogo{
+        margin: 0;
+    }
+    .LeftText h2{
+        font-size: 8vw;
+>>>>>>> a64dd73f0f93a50ff0948ee6e447806396d061de
     }
 }

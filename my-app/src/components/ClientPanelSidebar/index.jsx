@@ -2,20 +2,33 @@ import { useRef } from "react"
 import "./style.css"
 
 export function ClientPanelSidebar() {
-    const sidebar = useRef()
+    const sidebar = useRef();
+    const SideBars = useRef();
+    const SideBarss = useRef();
     const SidebarModal = () => {
-        sidebar.current.style.left = '0'
+        sidebar.current.style.left = '0%'
+        SideBars.current.style.display = 'none'
+        SideBarss.current.style.display = 'block'
+        console.log('didsd')
+    }
+    const SidebarModalDown = () => {
+        sidebar.current.style.left = '-100%'
+        SideBars.current.style.display = 'block'
+        SideBarss.current.style.display = 'none'
     }
     return(
         <div className="ClientSidebar">
-            <h2 className="fa-solid fa-bars SidebarBars" onClick={() => SidebarModal()}></h2>
-            <h2 className="fa-solid fa-bars SidebarBars sidedown" onClick={() => SidebarModal()}></h2>
-            <div className="ClientPanelSidebar">
+            <button ref={SideBars} className="fa-solid fa-bars SidebarBars" onClick={SidebarModal}></button>
+            <button ref={SideBarss} className="fa-solid fa-bars SidebarBars sidedown" onClick={SidebarModalDown}></button>
+            <div className="Clientpathpucher">
+                <a href='/' className='fa-solid fa-caret-left'></a>
+            </div>
+            <div ref={sidebar} className="ClientPanelSidebar">
                     <div className="sidetop">
                         <span>N</span>
                         <h1>Nice</h1>
                     </div>
-                    <div ref={sidebar} className="sidebottom">
+                    <div className="sidebottom">
                         <button id="dashboard" onClick={(e) => window.location.pathname = `/client/${e.target.id}`}>
                             <h3 id="dashboard" className="fa-solid fa-table"></h3>
                             <h2 id="dashboard">Dashboard</h2>

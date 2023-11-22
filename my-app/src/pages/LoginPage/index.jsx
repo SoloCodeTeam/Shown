@@ -53,6 +53,9 @@ function LoginPage() {
                     <div className="container">
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
+                                <div className="LoginPagePath">
+                                    <a href='/' className='fa-solid fa-caret-left'></a>
+                                </div>
                                 <div className="LeftLogo">
                                     
                                     <img src="https://shown.io/static/images/logo.svg" alt="" />
