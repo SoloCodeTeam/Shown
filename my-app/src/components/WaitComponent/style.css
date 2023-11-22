@@ -1,23 +1,26 @@
 .Wait{
     background-color: rgb(246, 246, 246);
+}
+.Wait .container{
     display: flex;
     justify-content: center;
-    padding: 3% 10%;
+    align-items: center;
+    padding: 0 3%;
 }
-.Wait div{
+.Wait .WaitTexts{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 .Wait h1{
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
     color: black;
 }
 .Wait p{
     margin: 5% 0;
     font-size: 1.3vw;
-    width: 70%;
+    width: 50%;
     color: rgb(123, 123, 123);
 }
 .Wait a{
@@ -32,12 +35,12 @@
     background-color: #0F70DA;
 }
 .Wait img{
-    width: 50%;
+    width: 55%;
     margin-left: 5%;
 }
 @media(max-width: 900px) {
     .Wait h1{
-        font-size: 3.8vw;
+        font-size: 3vw;
     }
     .Wait p{
         margin: 5% 0;
@@ -45,37 +48,24 @@
         width: 70%;
     }
     .Wait a{
-        font-size: 1.8vw;
-        padding: 2% 10%;
-        border-radius: 1.4vw;
+        font-size: 1.7vw;
+        padding: 1% 10%;
     }
     .Wait img{
-        width: 40%;
+        width: 60%;
     }
 }
 @media(max-width: 650px) {
-    .Wait{
-        flex-direction: column;
-        text-align: center;
-        padding: 10%;
-    }
     .Wait h1{
-        font-size: 7vw;
-        margin: auto;
+        font-size: 5vw;
     }
     .Wait p{
-        margin: 5% 0;
+        margin: 10% 0;
         font-size: 2.5vw;
         width: 100%;
     }
     .Wait a{
-        font-size: 3vw;
-        padding: 2% 12%;
-        border-radius: 2vw;
-        margin: auto;
-    }
-    .Wait img{
-        width: 80%;
-        margin: 7% auto;
+        font-size: 2.5vw;
+        padding: 1% 10%;
     }
 }

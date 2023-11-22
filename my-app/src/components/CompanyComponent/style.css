@@ -3,14 +3,14 @@
 }
 .Company h1{
     text-align: center;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     color: rgb(68, 68, 68);
 }
 .Company p{
     text-align: center;
     width: 50%;
     margin: 2% auto;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     color: rgb(102, 102, 102);
 }
 .Company ul{
@@ -31,9 +31,6 @@
 }
 .Company ul img{
     width: 40%;
-}
-.Company ul h3{
-    font-size: 1.2vw;
 }
 @media(max-width: 700px){
     .Company h1{
@@ -76,6 +73,41 @@
         font-size: 5vw;
     }
     .Company ul img{
-        width: 40%;
+        width: 40%;}
+    .Company p{ 
+        margin: 2% auto;
+        width: 80%;
+    }
+    .Company ul img{
+        width: 30%;
+    }
+    .Company ul{
+        flex-direction: column;
+    }
+    .Company ul li{
+        margin: 5% 0;
+    }
+    .Company ul p{
+        margin: 2% auto;
+        width: 70%;
+    }
+}
+@media(max-width: 500px){
+    .Company p{ 
+        margin: 2% auto;
+        width: 90%;
+    }
+    .Company ul img{
+        width:  40%;
+    }
+    .Company ul{
+        flex-direction: column;
+    }
+    .Company ul li{
+        margin: 5% 0;
+    }
+    .Company ul p{
+        margin: 2% auto;
+        width: 70%;
     }
 }

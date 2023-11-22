@@ -1,7 +1,8 @@
 import { Home } from '../pages/HomePage/index'
+import Login from '../pages/LoginPage'
 import { ClientPanel } from '../pages/ClientPanel'
-import LoginPage from '../pages/LoginPage'
 import { NotFound } from '../pages/NotFoundPage'
+
 
 export const DataRouter = [
     {
@@ -11,8 +12,8 @@ export const DataRouter = [
     },
     {
         id : 2,
-        path : '/Client',
-        Element : <ClientPanel/>
+        path : '/sign',
+        Element : <Login/> 
     },
     {
         id : 3,
@@ -20,12 +21,12 @@ export const DataRouter = [
         Element : <LoginPage/>
     },
     {
-        id : 3,
+        id : 4,
         path : '/client/balance',
         Element : <ClientPanel data="balance"/>
     },
     {
-        id : 3,
+        id : 5,
         path : '/client/*',
         Element : <ClientPanel data="other"/>
     },
