@@ -27,6 +27,7 @@ button{
 }
 body {
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 .blueButton{
   padding: 8px 39px;

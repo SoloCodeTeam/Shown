@@ -4,7 +4,7 @@ function LoginPage() {
     <div className="LoginPage">
             <button onClick={(e) => window.location.pathname = `/${e.target.id}`}>
         <div className="LoginPagePath">
-            <i className='fa-solid fa-caret-left'></i>
+            <a href='/' className='fa-solid fa-caret-left'></a>
         </div>
         </button>
         <div className="LoginPageBox">

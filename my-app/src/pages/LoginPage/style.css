@@ -8,7 +8,7 @@
     background-color: #ededed;
     cursor: default;
 }
-.LoginPagePath{
+.LoginPagePath a{
     background-color: #f7f7f7;
     color: #478EF2;
     padding: 1% 1.6%;
@@ -19,7 +19,7 @@
     top: 3%;
     left: 2%;
 }
-.LoginPagePath:hover{
+.LoginPagePath a:hover{
     background-color: #478EF2;
     color: #f7f7f7;
 }
