@@ -52,6 +52,7 @@
 .SidebarBars{
     z-index: 3 !important;
     position: fixed;
+    display: none;
     background: none;
     font-size: 7vw;
     left: 5%;
@@ -67,6 +68,9 @@
     }
 }
 @media(max-width: 700px){
+    .SidebarBars{
+        display: block;
+    }
     .ClientPanelSidebar{
         transition: 1s;
         text-align: center !important;
