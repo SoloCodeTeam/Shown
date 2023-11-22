@@ -9,3 +9,8 @@
 .NotFound img{
     width: 50%;
 }
+@media (max-width: 650px) {
+    .NotFound img{
+        width: 80%;
+    }
+}

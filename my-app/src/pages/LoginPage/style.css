@@ -114,7 +114,7 @@
         width: 45%;
         margin-bottom: 8%;
     }
-    .LoginPagePath{
+    .LoginPagePath a{
         font-size: 6vw;
         padding: 3% 5%;
         left: 4%;

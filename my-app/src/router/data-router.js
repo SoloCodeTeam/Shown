@@ -18,7 +18,7 @@ export const DataRouter = [
     {
         id : 3,
         path : '/Sign',
-        Element : <LoginPage/>
+        Element : <Login/>
     },
     {
         id : 4,
