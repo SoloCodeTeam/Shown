@@ -12,7 +12,7 @@ function HomeSectionCard() {
                   <code class="">
                     <div>
                       <div className='cardIcon'>
-                        <img src="https://shown.io/static/images/phone.svg" alt="" />
+                        <i className='fa-solid fa-phone'></i>
                       </div>
                       <div className="cardText">
                         <h2>Phone calls</h2>
@@ -29,11 +29,11 @@ function HomeSectionCard() {
                   <code class="">
                     <div>
                       <div className='cardIcon'>
-                        <img src="https://shown.io/static/images/clicks.svg" alt="" />
+                        <i className='fa-solid fa-location-arrow'></i>
                       </div>
                       <div className="cardText">
-                        <h2>Phone calls</h2>
-                        <p>I want to receive more phone calls from potential clients.</p>
+                        <h2>Website Traffic</h2>
+                        <p>I want more people to visit my website.</p>
                       </div>
                     </div>
                   </code>
@@ -46,11 +46,11 @@ function HomeSectionCard() {
                   <code class="">
                     <div>
                       <div className='cardIcon'>
-                        <img src="https://shown.io/static/images/house.svg" alt="" />
+                        <i className='fa-solid fa-shop'></i>
                       </div>
                       <div className="cardText">
-                        <h2>Phone calls</h2>
-                        <p>I want to receive more phone calls from potential clients.</p>
+                        <h2>Offline Visitors</h2>
+                        <p>I want more people to visit my physical store.</p>
                       </div>
                     </div>
                   </code>
@@ -63,11 +63,11 @@ function HomeSectionCard() {
                   <code class="">
                     <div>
                       <div className='cardIcon'>
-                        <img src="https://shown.io/static/images/online-lead-default.svg" alt="" />
+                        <i className='fa-solid fa-filter'></i>
                       </div>
                       <div className="cardText">
-                        <h2>Phone calls</h2>
-                        <p>I want to receive more phone calls from potential clients.</p>
+                        <h2>Online Leads</h2>
+                        <p>I want more people to sign up for my offers.</p>
                       </div>
                     </div>
                   </code>

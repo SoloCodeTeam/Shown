@@ -53,6 +53,9 @@
     display: none;
 	margin: 100%;
 }
+.sidedown{
+    display: none !important;
+}
 @media(max-width: 900px){
     .ClientPanelSidebar{
         padding: 4% 3%;
@@ -61,7 +64,8 @@
 @media(max-width: 700px){
     .ClientPanelSidebar{
         padding: 4%;
-        display: none;
+        left: -100%;
+        /* display: none; */
     }
     .SidebarBars{
         display: block;

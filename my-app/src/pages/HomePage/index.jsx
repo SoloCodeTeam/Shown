@@ -6,6 +6,7 @@ import HomeSectionComponentsTwo from '../../components/HomeSectionComponentsTwo/
 import HomeHeaderComponent from '../../components/HomeHeaderComponent';
 import { WaitComponent } from '../../components/WaitComponent';
 import HomeSectionShownwillComponent from '../../components/homeSectionShownwillComponent/index';
+import ResultComponent from '../../components/ResultComponent';
 export function Home() {
     return(
         <div className="Home">
@@ -14,6 +15,7 @@ export function Home() {
             <HomeSectionShownwillComponent />
             <HomeSectionComponents />
             <HomeSectionComponentsTwo />
+            <ResultComponent/>
             <WaitComponent />
             <CompanyComponent />
             <FooterComponent />

@@ -41,21 +41,34 @@
     margin: 40px 0;
     width: 50%;
 }
-@media (max-width: 925px) {
-    .homeCardRightText h2{
-        font-size: 2.8vw;
+@media (max-width: 900px) {
+    .homeCardRight{
+        width: 140%;
     }
-    .homeCardRightText p,
-    .homeCardButton p{
-        font-size: 1.8vw;
+    .homeCardLeft img{
+        width: 180%;
     }
-}
-@media (max-width: 830px) {
+    .homeCardRightTextdivh2 h2{
+        font-size: 4vw;
+        width: 100%;
+    }
     .homeCardButton {
         margin: 30px 30px 30px 0px;
+        width: 100%;
+
+    }
+    .homeCardLeft{
+        margin: 5% 20%;
+        width: 90%;
     }
 }
 @media (max-width: 640px) {
+    .homeCardLeft img{
+        width: 100%;
+    }
+    .homeCardRight{
+        width: 100%;
+    }
     .homecard{
         flex-direction: column;
         margin: 0 auto;
@@ -99,5 +112,9 @@
     .homeCardRightText {
         padding: 0 5%;
         margin:  0 auto;
+    }
+    .homeCardLeft{
+        margin: 5% 20%;
+        width: 90%;
     }
 }

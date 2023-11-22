@@ -36,34 +36,46 @@
     font-size: 1.2vw;
 }
 @media(max-width: 700px){
-    .Company p{
-        margin: 3% auto;
-        font-size: 1.7vw;
-        width: 70%;
-    }
-    .Company ul h3{
-        font-size: 1.5vw;
-    }
-    .Company ul img{
-        width: 50%;
-    }
     .Company h1{
-        font-size: 3vw;
+        font-size: 6vw;
     }
-}
-@media(max-width: 500px){
     .Company p{
         margin: 3% auto;
         font-size: 2vw;
         width: 70%;
     }
+    .Company ul{
+        flex-wrap: wrap;
+    }
     .Company ul h3{
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
     .Company ul img{
-        width: 60%;
+        width: 30%;
     }
+}
+@media(max-width: 500px){
     .Company h1{
-        font-size: 4    vw;
+        font-size: 6.7vw;
+    }
+    .Company p{
+        margin: 3% auto;
+        font-size: 3.8vw;
+        width: 70%;
+    }
+    .Company ul{
+        flex-wrap: wrap;
+    }
+    .Company ul li{
+        margin: 3% 0;
+    }
+    .Company ul p{
+        font-size: 4vw;
+    }
+    .Company ul h3{
+        font-size: 5vw;
+    }
+    .Company ul img{
+        width: 40%;
     }
 }

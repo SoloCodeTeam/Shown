@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   transition: .7s;
+  cursor: default;
 }
 ul, ol, li {
   list-style: none;

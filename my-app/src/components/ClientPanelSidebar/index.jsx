@@ -4,11 +4,12 @@ import "./style.css"
 export function ClientPanelSidebar() {
     const sidebar = useRef()
     const SidebarModal = () => {
-        
+        sidebar.current.style.left = '0'
     }
     return(
         <div className="ClientSidebar">
             <h2 className="fa-solid fa-bars SidebarBars" onClick={() => SidebarModal()}></h2>
+            <h2 className="fa-solid fa-bars SidebarBars sidedown" onClick={() => SidebarModal()}></h2>
             <div className="ClientPanelSidebar">
                     <div className="sidetop">
                         <span>N</span>

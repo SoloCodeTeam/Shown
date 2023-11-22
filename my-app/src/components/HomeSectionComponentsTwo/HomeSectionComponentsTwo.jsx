@@ -14,10 +14,10 @@ function HomeSectionComponentsTwo() {
               <div className="sectionCardRight">
                 <div className='sectionCardRightText'>
                   <div>
-                    <h2>Google & Microsoft Ads</h2>
+                    <h2>Facebook & Instagram Ads</h2>
                   </div>
                   <div className='sectionCardRightTextdivp'>
-                    <p>Появляйтесь в Google & Bing и запускайте поисковые объявления, например, крупнейшие бренды, в считанные минуты. Надоело тратить часы на ключевые слова? Пусть Shown AI сгенерирует все идеальные ключевые слова для вас!</p>
+                    <p>Connect with more than 2 billion people. Publish your appealing image or video ads among an engaged audience and reach your advertising goals.</p>
                   </div>
                 </div>
               </div>

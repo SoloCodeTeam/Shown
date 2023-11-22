@@ -20,9 +20,10 @@
 .sectionCardRightText p {
     max-width: 400px;
     margin-top: 19px;
+    font-size: 1.3vw;
 }
 .sectionCardRightText h2 {
-    font-size: 28px;
+    font-size: 2.4vw;
 }
 @media (max-width: 925px) {
     .sectionCardRightText h2{

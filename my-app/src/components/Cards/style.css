@@ -16,9 +16,21 @@
     background-color: #f1f1f1;
 	padding: 60px 0;
 }
-.col {
+.col{
 	 padding: 1rem;
-
+}
+.cardIcon i{
+	font-size: 5vw;
+	color: #478EF2;
+	margin-bottom: 13%;
+}
+.cardText h2{
+	font-weight: 550;
+	margin: 1%;
+}
+.cardText p{
+	font-weight: 300;
+	margin: 1%;
 }
 @media (min-width: 650px) {
 	 .col {
@@ -31,19 +43,44 @@
 
 }
 @media (max-width: 930px) {
-
+	.cardIcon i{
+		font-size: 6vw !important;
+	}
+	.dfcardss{
+		display: flex;
+	}
 	.col {
-		width: 50%;
+		width: 45%;
 		float: left;
+		margin: auto;
    }
 	.col:nth-of-type(2n+1) {
 		clear: left;
    }
+   .card-3 .content{
+	border-radius: 20vw;
+	width: 90%;
+   }
+   .card-3:before, .card-3:after {
+	border-radius: 20vw;
+	width: 90%;
+   }
 }
-@media (max-width: 768px) {
+@media (max-width: 766px) {
+	.cardIcon i{
+		font-size: 14vw !important;
+	}
 	.col {
 		width: 100%;
 		float: left;
+   }
+   .card-3 .content{
+	border-radius: 8vw !important;
+	width: 70%;
+   }
+   .card-3:before, .card-3:after {
+	border-radius: 8vw !important;
+	width: 70%;
    }
 }
 .card {
@@ -53,6 +90,8 @@
 }
 .card .content {
 	 padding: 4rem 1rem;
+	 margin: auto;
+
 }
 .card .title {
 	 font-size: 1.25rem;
@@ -62,11 +101,11 @@
 }
 .card-3 .content {
 	 background-color: #ffffff !important;
-	 
-	 border-radius: 5px;
+	 border-radius: 2vw;
 }
 .card-3:before, .card-3:after {
-	 border-radius: 5px;
+	border-radius: 2vw;
+	margin: auto;
 }
 .card-3:before {
 	 background-color: rgb(151, 151, 151) !important;
