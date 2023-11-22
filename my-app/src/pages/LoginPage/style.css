@@ -657,4 +657,23 @@ input:focus~.bar:after {
         margin-bottom: 60px;
 
     }
+    .LoginPageLeftdiv {
+        /* margin: 0 4dvb 0 0px; */
+        width: 100%;
+    }
+    .fnamediv {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .fnamediv div{
+        width: 100%;
+    }
+    .fnamediv div input, .highlight, .bar {
+        width: 1000px !important;
+        max-width: 100%;
+    }
+    .group {
+        width: 100%;
+        margin:   20px 0;
+    }
 }
