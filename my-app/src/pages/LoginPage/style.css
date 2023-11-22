@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 /* .LoginPage{
     overflow: hidden;
     transition: .3s;
@@ -159,7 +157,6 @@
     width: 100%;
     height: 100vh;
 }
->>>>>>> a64dd73f0f93a50ff0948ee6e447806396d061de
 .LeftText {
     text-align: center;
     padding: 20px 0;
@@ -709,13 +706,11 @@ input:focus~.bar:after {
         width: 80%;
         margin:   20px 0;
     }
-<<<<<<< HEAD
     .LoginPage {
         padding: 0 2%;
     }
     .ssapdButton{
         font-size: 16px;
-=======
 }
 
 @media (max-width: 650px){
@@ -724,6 +719,6 @@ input:focus~.bar:after {
     }
     .LeftText h2{
         font-size: 8vw;
->>>>>>> a64dd73f0f93a50ff0948ee6e447806396d061de
     }
+}
 }
