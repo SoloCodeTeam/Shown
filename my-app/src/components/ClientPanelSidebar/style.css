@@ -9,6 +9,21 @@
     align-items: start;
     padding: 3%;
 }
+.Clientpathpucher a{
+    background-color: #f7f7f7;
+    color: #478EF2;
+    padding: 1% 1.6%;
+    font-size: 2vw;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    bottom: 3%;
+    left: 2%;
+}
+.Clientpathpucher a:hover{
+    background-color: #478EF2;
+    color: #f7f7f7;
+}
 .ClientPanelSidebar .sidetop{
     display: flex;
     align-items: center;
@@ -70,6 +85,11 @@
 @media(max-width: 700px){
     .SidebarBars{
         display: block;
+    }
+    .Clientpathpucher a{
+        font-size: 6vw;
+        padding: 3% 5%;
+        left: 4%;
     }
     .ClientPanelSidebar{
         transition: 1s;

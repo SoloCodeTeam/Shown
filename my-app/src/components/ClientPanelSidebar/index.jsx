@@ -20,7 +20,9 @@ export function ClientPanelSidebar() {
         <div className="ClientSidebar">
             <button ref={SideBars} className="fa-solid fa-bars SidebarBars" onClick={SidebarModal}></button>
             <button ref={SideBarss} className="fa-solid fa-bars SidebarBars sidedown" onClick={SidebarModalDown}></button>
-            <a className="fa-solid fa-cover-left" href="/"></a>
+            <div className="Clientpathpucher">
+                <a href='/' className='fa-solid fa-caret-left'></a>
+            </div>
             <div ref={sidebar} className="ClientPanelSidebar">
                     <div className="sidetop">
                         <span>N</span>

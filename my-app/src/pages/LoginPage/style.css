@@ -152,10 +152,24 @@
         border-radius: 2vw;
     }
 } */
+.LoginPage{
+    width: 100%;
+    height: 100vh;
+}
 .LeftText {
+    text-align: center;
     padding: 20px 0;
 }
-
+.LeftText h2{
+    font-size: 3vw;
+    margin: 1%;
+}
+.LeftLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 .LoginPagedfDiv {
     display: flex;
     max-height: 100vh;
@@ -165,8 +179,11 @@
 }
 
 .LoginPageLeftdiv {
-    padding: 10px 30px 0 50PX;
+    padding: 3%;
+    padding-bottom: 10%;
     /* margin: 30px 0 30px 0; */
+    margin-right: 50%;
+
 }
 
 .LeftLogo {
@@ -176,6 +193,8 @@
 
 .LEftInputs {
     font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
 }
 
 .fnamediv {
@@ -314,7 +333,7 @@ input:focus~.bar:after {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 }
 
 .ssapd input {
@@ -630,8 +649,10 @@ input:focus~.bar:after {
 }
 
 .LoginPageRightDiv {
-    max-height: 100%;
-    height: 700px;
+    right: 0;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -653,13 +674,21 @@ input:focus~.bar:after {
     }
 
     .ssapd input {
-        width: 80%;
+        width: 70%;
         margin-bottom: 60px;
 
     }
+    .LeftLogo{
+        width: 100% !important;
+        margin-left: 25%;
+    }
+    .LeftLogo img{
+        width: 60%;
+    }
     .LoginPageLeftdiv {
-        /* margin: 0 4dvb 0 0px; */
         width: 100%;
+        margin: 0;
+        padding: 5% 10%;
     }
     .fnamediv {
         width: 100%;
@@ -673,7 +702,16 @@ input:focus~.bar:after {
         max-width: 100%;
     }
     .group {
-        width: 100%;
+        width: 80%;
         margin:   20px 0;
+    }
+}
+
+@media (max-width: 650px){
+    .LeftLogo{
+        margin: 0;
+    }
+    .LeftText h2{
+        font-size: 8vw;
     }
 }

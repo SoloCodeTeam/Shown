@@ -9,8 +9,28 @@
 .NotFound img{
     width: 50%;
 }
+.LoginPagePath a{
+    background-color: #f7f7f7;
+    color: #478EF2;
+    padding: 1% 1.6%;
+    font-size: 2vw;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 3%;
+    left: 2%;
+}
+.LoginPagePath a:hover{
+    background-color: #478EF2;
+    color: #f7f7f7;
+}
 @media (max-width: 650px) {
     .NotFound img{
         width: 80%;
+    }
+    .LoginPagePath a{
+        font-size: 6vw;
+        padding: 3% 5%;
+        left: 4%;
     }
 }
