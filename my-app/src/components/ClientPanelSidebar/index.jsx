@@ -9,7 +9,6 @@ export function ClientPanelSidebar() {
         sidebar.current.style.left = '0%'
         SideBars.current.style.display = 'none'
         SideBarss.current.style.display = 'block'
-        console.log('didsd')
     }
     const SidebarModalDown = () => {
         sidebar.current.style.left = '-100%'

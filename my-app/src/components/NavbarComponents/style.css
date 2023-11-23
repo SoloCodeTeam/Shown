@@ -96,6 +96,71 @@
   color: #0F70DA;
   text-decoration: underline;
 }
+/* Sign Up Modal style here */
+.nav .signupModal{
+  background-color: #fff;
+  border: .2vw solid #0F70DA;
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  width: 30%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  color: #000;
+  padding: 2% 3%;
+  border-radius: 2vw;
+  text-align: center;
+}
+.nav .signupModal h1{
+  color: orangered;
+}
+.nav .signupModal h3{
+  margin: 5% 0;
+  width: 90%;
+  color: rgb(74, 74, 74);
+}
+.nav .signupModal h2{
+  color: #0F70DA;
+  margin-bottom: 5%;
+}
+.nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+  width: 90%;
+  max-width: 90%;
+  min-width: 90%;
+  padding: 2% 3%;
+  border: .12vw solid #0F70DA;
+  border-radius: .5vw;
+  background: #fff;
+  color: #000;
+  margin-top: 5%;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3vw
+}
+.nav .signupModal textarea {
+  min-height: 2.6vw;
+  max-height: 10vw;
+}
+.nav .signupModal button{
+  color: #fff;
+  background-color: #0F70DA;
+}
+.nav .signupModal button:hover{
+  background-color: #fff;
+  color: #0F70DA;
+}
+.nav .SignupOverlay{
+  background-color: #0000002d;
+  position: fixed;
+  width: 100%;
+  height: 10000vw;
+  top: 0;
+  left: 0;
+  display: none;
+}
+/*  */
 @media (min-width: 768px) {
   .menu {
     display: none;
@@ -108,6 +173,25 @@
   }
   .buttons {
     display: block;
+  }
+}
+@media(max-width: 1300px){
+  .nav .signupModal{
+    top: 10%;
+    left: 25%;
+    width: 40%;
+    padding: 2% 3%;
+    border-radius: 2vw;
+  }
+}
+@media(max-width: 1100px){
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 1.6vw;
+  }
+}
+@media(max-width: 850px){
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 2vw;
   }
 }
 @media (max-width: 767px) {
@@ -128,6 +212,21 @@
     display: none;
     margin-left: 0px;
   }
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 2vw;
+  }
+  .nav .signupModal{
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    padding: 2% 3%;
+    border-radius: 2vw;
+  }
+}
+@media(max-width: 700px){
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 2.7vw;
+  }
 }
 @media (max-width: 567px) {
   .buttons button:nth-child(2) {
@@ -139,6 +238,16 @@
   }
   .logo{
     width: 35%;
+  }
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 3vw;
+  }
+  .nav .signupModal{
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    padding: 4% 3%;
+    border-radius: 2vw;
   }
 }
 @media (max-width: 400px) {
