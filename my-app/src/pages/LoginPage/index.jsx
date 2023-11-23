@@ -11,7 +11,7 @@ function LoginPage() {
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
                                 <div className="LoginPagePath">
-                                    <a href='/' className='fa-solid fa-caret-left'></a>
+                                    <a href='/' className='fa-solid fa-xmark'></a>
                                 </div>
                                 <div className="LeftLogo">
                                     <img src={Logoimg} alt="" />
@@ -22,12 +22,6 @@ function LoginPage() {
                                 </div>
                                 <div className="LEftInputs">
                                     <form action="/action_page.php">
-                                        <div class="groupW100">
-                                            <input type="email" required />
-                                            <span class="highlightW100"></span>
-                                            <span class="barW100"></span>
-                                            <label>Email</label>
-                                        </div>
                                         <div className='fnamediv'>
                                             <div class="group">
                                                 <input type="text" required />
@@ -42,7 +36,13 @@ function LoginPage() {
                                                 <label>Last Name</label>
                                             </div>
                                         </div>
-                                        <span>
+                                        <div class="groupW100">
+                                            <input type="email" required />
+                                            <span class="highlightW100"></span>
+                                            <span class="barW100"></span>
+                                            <label>Email</label>
+                                        </div>
+                                        <div className="fnamedivs">
                                             <div class="groupW100">
                                                 <input type="password" required />
                                                 <span class="highlightW100"></span>
@@ -55,7 +55,7 @@ function LoginPage() {
                                                 <span class="barW100"></span>
                                                 <label>Coniform Password</label>
                                             </div>
-                                        </span>
+                                        </div>
                                         <span>
                                             <div class="groupW100">
                                                 <input type="password" required />
@@ -74,7 +74,7 @@ function LoginPage() {
                                     </form>
                                 </div>
                             </div>
-                            <div className="LoginPageRightDiv">
+                            {/* <div className="LoginPageRightDiv">
                                 <span>
                                     <h2>
                                         Join over 20,000+ brands, marketers and business owners.
@@ -83,7 +83,7 @@ function LoginPage() {
                                         Shown is like a digital marketing guru sitting near me and saving my time by doing all the manual work!
                                     </h3>
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

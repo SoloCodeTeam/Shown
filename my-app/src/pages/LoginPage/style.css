@@ -1,164 +1,15 @@
-/* .LoginPage{
-    overflow: hidden;
-    transition: .3s;
-    height: 100vh;
-    max-width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ededed;
-    cursor: default;
-}
-.LoginPagePath a{
-    background-color: #f7f7f7;
-    color: #478EF2;
-    padding: 1% 1.6%;
-    font-size: 2vw;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 2;
-    top: 3%;
-    left: 2%;
-}
-.LoginPagePath a:hover{
-    background-color: #478EF2;
-    color: #f7f7f7;
-}
-.LoginPageBox{
-    text-align: center;
-    padding: 2%;
-    border-radius: 2vw;
-    color: #478EF2;
-    background-color: #f7f7f7;
-}
-.LoginPageBox img{
-    width: 40%;
-    margin-bottom: 4%;
-}
-.LoginPageBox h1{
-    margin: 4% 0;
-    font-size: 2.6vw;
-}
-.LoginPageBox p{
-    margin: 2% 0;
-    font-size: 1.2vw;
-    font-weight: 300;
-}
-.LoginPage form{
-    text-align: left;
-    border-radius: 1vw;
-    margin: 2% 0;
-}
-.LoginPage form h3{
-    font-size: 1.2vw;
-    margin-left: auto;
-}
-.LoginPage form input{
-    width: 100%;
-    outline: none;
-    color: #478EF2;
-    background-color: white;
-    border: .1vw solid rgb(235, 235, 235);
-    border-radius: .8vw;
-    padding: 2.6%;
-    margin: 2%;
-    font-size: 1.3vw;
-}
-.LoginPage form input:hover{
-    border: .1vw solid #478EF2;
-}
-.LoginAddInput{
-    padding: 5.4% !important;
-}
-.LoginPage .signBoxes{
-    margin: 2%;
-}
-.LoginPage .signInside{
-    display: flex;
-}
-.LoginPageBox .LoginBoxess{
-    padding: 1%;
-    display: flex;
-    align-items: center;
-}
-.LoginPageBox .LoginBoxess h2{
-    font-size: 1.2vw;
-}
-.LoginPage .LoginBoxess .Logincheck{
-    margin: 2%;
-    width: min-content;
-}
-.LoginPage form button{
-    cursor: pointer;
-    width: 100%;
-    font-size: 1.3vw;
-    outline: none;
-    border: 0.1vw solid #478EF2;
-    background-color: #f7f7f7;
-    color: #478EF2;
-    padding: 3%;
-    margin-top: 1%;
-    border-radius: .8vw;
-}
-.LoginPage form button:hover{
-    border: 0.1vw solid #f7f7f7;
-    background-color: #478EF2;
-    color: #f7f7f7;
-}
-@media  (max-width:600px) {
-    .LoginPageBox{
-        width: 100%;
-        height: 100vh;
-        padding: 8%;
-    }
-    .LoginPageBox img{
-        width: 45%;
-        margin-bottom: 8%;
-    }
-    .LoginPagePath a{
-        font-size: 6vw;
-        padding: 3% 5%;
-        left: 4%;
-    }
-    .LoginPageBox h1{
-        font-size: 7vw;
-        margin: 0;
-    }
-    .LoginPageBox p{
-        font-size: 3vw;
-    }
-    .LoginPage form{
-        margin: 6% 0;
-    }
-    .LoginPage form h3{
-        font-size: 3.4vw;
-    }
-    .LoginPage form input{
-        font-size: 3.4vw;
-        padding: 5%;
-        margin: 1%;
-        border-radius: 2vw;
-    }
-    .LoginAddInput{
-        padding: 9% !important;
-    }
-    .LoginPageBox .LoginBoxess h2{
-        font-size: 3.8vw;
-    }
-    .LoginPage form button{
-        padding: 4%;
-        font-size: 4vw;
-        border: .3vw solid #478EF2;
-        border-radius: 2vw;
-    }
-} */
 .LoginPage{
     width: 100%;
     height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .LeftText {
     text-align: center;
     padding: 20px 0;
+    color: black;
 }
 .LeftText h2{
     font-size: 3vw;
@@ -169,7 +20,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin-left: 25%;
+    margin: auto;
 }
 .LoginPagedfDiv {
     display: flex;
@@ -180,13 +31,13 @@
 }
 
 .LoginPageLeftdiv {
-    padding: 3%;
+    padding: 4%;
     padding-bottom: 10%;
-    /* margin: 30px 0 30px 0; */
-    margin-right: 50%;
-
 }
 
+.LoginPageLeftdiv .LoginPagePath a{
+    padding: 1.3% 1.6%;
+}
 .LeftLogo {
     max-width: 300px;
 }
@@ -200,7 +51,13 @@
 .fnamediv {
     display: flex;
 }
-
+.fnamedivs{
+    display: flex;
+}
+.fnamedivs .groupW100{
+    margin: 0;
+    width: 100%;
+}
 .group {
     position: relative;
     padding: 0 10px;
@@ -322,6 +179,23 @@ input:focus~.bar:after {
 
 
 
+.checkboxbody {
+    box-sizing: inherit;
+}
+
+.checkboxbody:before,
+.checkboxbody:after {
+    box-sizing: inherit;
+}
+
+.checkboxbody {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #8a91b4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3%;
+}
 
 
 
@@ -333,7 +207,6 @@ input:focus~.bar:after {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 10%;
 }
 
 .ssapd input {
@@ -346,7 +219,7 @@ input:focus~.bar:after {
     padding: 0 10px;
 }
 
-.groupW100 input {
+.groupW100 input, .fnamedivs .groupW100 input{
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -629,58 +502,22 @@ input:focus~.bar:after {
         --s: 0.5;
     }
 }
-
-.checkboxbody {
-    box-sizing: inherit;
-}
-
-.checkboxbody:before,
-.checkboxbody:after {
-    box-sizing: inherit;
-}
-
-.checkboxbody {
-    font-family: 'Inter', Arial, sans-serif;
-    color: #8a91b4;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px 0;
-}
-
-.LoginPageRightDiv {
-    right: 0;
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    background: rgb(63, 171, 251);
-    background: radial-gradient(circle, rgba(63, 171, 251, 1) 0%, rgba(91, 70, 252, 1) 100%);
-    color: #fff;
-    padding: 0 30px;
-}
-
-.LoginPageRightDiv h2 {
-    padding: 30px 20px;
+@media (max-width: 1000px) {
+    .LeftText h2{
+        font-size: 4vw;
+    }
+    .LeftLogo{
+        width: 40%;
+    }
 }
 
 @media (max-width: 800px) {
-    .LoginPageRightDiv {
-        display: none;
-    }
-
     .ssapd input {
-        width: 70%;
-        margin-bottom: 60px;
-
+        margin-bottom: 4%;
     }
     .LeftLogo{
         width: 100% !important;
-        margin-left: 25%;
+        margin: auto;
     }
     .LeftLogo img{
         width: 60%;
@@ -690,9 +527,12 @@ input:focus~.bar:after {
         margin: 0;
         padding: 5% 10%;
     }
-    .fnamediv {
+    .fnamediv, .fnamedivs {
         width: 100%;
         flex-wrap: wrap;
+    }
+    .fnamedivs .groupW100{
+        margin: 4% 0;
     }
     .fnamediv div{
         width: 100%;
@@ -708,10 +548,17 @@ input:focus~.bar:after {
 }
 
 @media (max-width: 650px){
+    .LoginPage{
+        padding: 10% 0;
+    }
     .LeftLogo{
-        margin: 0;
+        margin: auto;
     }
     .LeftText h2{
         font-size: 8vw;
+    }
+    .LoginPageLeftdiv .LoginPagePath a{
+        font-size: 7vw;
+        padding: 3% 4%;
     }
 }

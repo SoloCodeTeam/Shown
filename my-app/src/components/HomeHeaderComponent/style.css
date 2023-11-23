@@ -1,5 +1,6 @@
 .homecardrow {
     flex-direction: row-reverse;
+    padding: 5% 1%;
     padding-top: 80px;
 }
 .homecard {

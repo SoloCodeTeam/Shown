@@ -54,7 +54,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
+  cursor: default;
   color: #000;
 }
 .ccar {
@@ -71,7 +71,7 @@
   background: none;
   color: #000;
   border: 0px;
-  cursor: pointer;
+  cursor: default;
   transition: 0.3s;
 }
 .buttons button:nth-child(2) {
@@ -82,7 +82,7 @@
   color: #fff;
   border: 2px solid #0F70DA;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: default;
   transition: 0.3s;
   background-color: #0F70DA;
 }
@@ -96,6 +96,35 @@
   color: #0F70DA;
   text-decoration: underline;
 }
+.overlay{
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0000002d;
+  display: none;
+}
+.SignModal{
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  top: 0;
+  left: 25%;
+  position: fixed;
+  background-color: #fff;
+  display: none;
+}
+@media (max-width: 1000px) {
+  .SignModal{
+      width: 60%;
+      left: 20%;
+  }
+}
+
 @media (min-width: 768px) {
   .menu {
     display: none;
@@ -127,6 +156,12 @@
   .buttons button:nth-child(1) {
     display: none;
     margin-left: 0px;
+  }
+}
+@media (max-width: 650px) {
+  .SignModal{
+    width: 100%;
+    left: 0;
   }
 }
 @media (max-width: 567px) {
