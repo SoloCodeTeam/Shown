@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logoimg from '../../images/Logo.png'
 import './style.css';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,7 @@ function Navbar() {
     <div className="nav">
       <div className="container">
         <nav>
-          <div className="logo"><img src="https://shown.io/static/images/logo.svg" alt="eror"/></div>
+          <div className="logo"><img src={Logoimg} alt="eror"/></div>
           <ul className={isOpen ? 'nav-links showNav' : 'nav-links'}>
             <li>Main</li>
             <li>Call</li>

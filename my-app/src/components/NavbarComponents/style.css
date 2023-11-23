@@ -5,6 +5,9 @@
   z-index: 9999;
   background-color: #fff;
 }
+.logo{
+  width: 12%;
+}
 .nav nav {
   position: relative;
   display: flex;
@@ -133,6 +136,9 @@
   }
   .menu ul {
     padding: 8px 15px;
+  }
+  .logo{
+    width: 35%;
   }
 }
 @media (max-width: 400px) {
