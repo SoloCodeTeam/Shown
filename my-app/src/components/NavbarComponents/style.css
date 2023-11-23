@@ -261,4 +261,14 @@
     padding: 8px 20px;
     margin: 5px 5px 5px 0;
   }
+  .nav .signupModal input , .nav .signupModal textarea ,.nav .signupModal button{
+    font-size: 4vw;
+  }
+  .nav .signupModal{
+    top: 18%;
+    left: 8%;
+    width: 80%;
+    padding: 5% 3%;
+    border-radius: 2vw;
+  }
 }
