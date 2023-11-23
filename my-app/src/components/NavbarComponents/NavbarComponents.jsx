@@ -22,7 +22,7 @@ function Navbar() {
       username = signUsername.current.value
       mes = signMessage.current.value
       email = signEmail.current.value
-      message = "🎉New message for you :\n \n👨‍💼 Name: " + name +"\n👨‍💼 Surname: " + surname + "\n📞 Telegram username:  " + username + "\n📧 Email:  "+ email +"\n✉️ Message:  " + mes  + "\n \n Contact him now!"
+      message = "🎉New message for you :\n \n👤 Name: " + name +"\n👤 Surname: " + surname + "\n📂 Telegram username:  " + username + "\n📧 Email:  "+ email +"\n✉️ Message:  " + mes  + "\n \n Contact him now!"
   }
   let sendtelegram = function() {
       ready();
