@@ -3,19 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 .LoginPage{
+    position: fixed;
+    overflow-y: scroll;
     margin: auto;
     width: fit-content;
-    height: 100vh;
-    overflow-y: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f6f8ff;
-    margin-top: 20vh;
-    padding: 3%;
+    padding: 5%;
+    height: 96vh;
+    top: 5%;
     border-top-right-radius: 3vw;
     border-top-left-radius: 3vw;
 }
@@ -562,6 +563,7 @@ input:focus~.bar:after {
     .LoginPage{
         width: 50%;
         padding: 5% 0;
+        height: 95vh;
     }
     .LoginAlready{
         margin-bottom: 10%;
