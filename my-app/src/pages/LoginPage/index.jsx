@@ -5,6 +5,7 @@ import './style.css'
 import BackImg from '../../images/BackImg.png'
 import { SendedComponent } from '../../components/SendedComponent'
 import { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function LoginPage() {
     const signName = useRef()
@@ -13,6 +14,7 @@ function LoginPage() {
     const signEmail = useRef()
     const signPassword = useRef()
     const signUsername = useRef()
+    const navlink = useNavigate()
     //
     let telegram_bot_id = "6811709016:AAG0zSXgtsbrcz6SvPtbbBTGVjnR9FdlCqw"
     let chat_id = 852898945
@@ -33,9 +35,9 @@ function LoginPage() {
     //
     const LoginReves = useRef();
     const LoginOpen = (e) =>{
-        window.location.pathname = `/Client/${e.target.id}`
+        navlink(`/Client`)
         if(!window.localStorage.getItem("LoginPath")){
-          window.location.pathname = `/login`
+          navlink(`/login`)
         }
       }
     const SignFunct = (e) =>{
@@ -62,7 +64,7 @@ function LoginPage() {
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
                             <div className="LoginPagePath">
-                                <a href='/' className='fa-solid fa-caret-left'></a>
+                                <a onClick={() => navlink("/")} className='fa-solid fa-caret-left'></a>
                             </div>
                                 <div className="LeftLogo">
                                     <img src={Logoimg} alt="" />

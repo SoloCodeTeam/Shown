@@ -1,12 +1,13 @@
 import LoginPage from '../LoginPage'
 import Logoimg from '../../images/Logo.png'
-
+import { useNavigate } from 'react-router-dom'
 import './style.css'
 import BackImg from '../../images/BackImg.png'
 
 export function SignPage() {
+    const navlink = useNavigate()
     const SignOpen = (e) =>{
-        window.location.pathname = `/sign`
+        navlink(`/sign`)
     }
     return(
         <div className="Sign">
@@ -16,7 +17,7 @@ export function SignPage() {
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
                                 <div className="LoginPagePath">
-                                    <a href='/' className='fa-solid fa-caret-left'></a>
+                                    <a onClick={() => navlink("/")} className='fa-solid fa-caret-left'></a>
                                 </div>
                                 <div className="LeftLogo">
                                     <img src={Logoimg} alt="" />
@@ -26,7 +27,7 @@ export function SignPage() {
                                     <p>Enter your account</p>
                                 </div>
                                 <div className="LEftInputs">
-                                    <form action="/action_page.php">
+                                    <form onSubmit={(e) => {e.preventDefault();navlink(`/Client/other`)}}>
                                         <div class="groupW100">
                                             <input type="email" required />
                                             <span class="highlightW100"></span>
@@ -40,7 +41,7 @@ export function SignPage() {
                                             <label>Password</label>
                                         </div>
                                         <span className='ssapd'>
-                                            <input type="submit" value="Log In" className='blueButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
+                                            <input type="submit" value="Log In" className='blueButton' />
                                         </span>
                                     </form>
                                     <button className='LoginAlready' onClick={SignOpen}>Don't have an account? <p onClick={SignOpen}>Sign in</p></button>

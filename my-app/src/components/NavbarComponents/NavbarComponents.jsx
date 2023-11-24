@@ -1,17 +1,21 @@
 import React, { useRef, useState } from 'react';
 import Logoimg from '../../images/Logo.png'
 import './style.css';
+import { useNavigate } from 'react-router-dom';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navlink = useNavigate()
   const LoginOpen = (e) =>{
     // window.location.pathname = `/Client/${e.target.id}`
     // if(!window.localStorage.getItem("LoginPath")){
     //   window.location.pathname = `/login`
     // }
-    window.location.pathname = '/login'
+    // window.location.pathname = '/login'
+    navlink("/login")
   }
   const SignOpen = (e) =>{
-    window.location.pathname = `/sign`
+    // window.location.pathname = `/sign`
+    navlink("/sign")
   }
   return (
     <div className="nav">
