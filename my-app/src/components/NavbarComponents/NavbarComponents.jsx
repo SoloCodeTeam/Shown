@@ -3,6 +3,15 @@ import Logoimg from '../../images/Logo.png'
 import './style.css';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const LoginOpen = (e) =>{
+    window.location.pathname = `/Client/${e.target.id}`
+    if(!window.localStorage.getItem("LoginPath")){
+      window.location.pathname = `/login`
+    }
+  }
+  const SignOpen = (e) =>{
+    window.location.pathname = `/sign`
+  }
   return (
     <div className="nav">
       <div className="container">
@@ -22,8 +31,8 @@ function Navbar() {
               <p> Menu</p>
             </div>
             <div className="buttons">
-              <button onClick={(e) => window.location.pathname = `/Client/${e.target.id}`}>Log In</button>
-              <button onClick={() => window.location.pathname = `/sign`}>Sign Up</button>
+              <button onClick={LoginOpen}>Log In</button>
+              <button onClick={SignOpen}>Sign Up</button>
             </div>
           </div>
         </nav>
