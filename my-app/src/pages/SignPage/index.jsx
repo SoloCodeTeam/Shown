@@ -43,7 +43,7 @@ export function SignPage() {
                                             <input type="submit" value="Log In" className='blueButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
                                         </span>
                                     </form>
-                                    <button className='LoginAlready' onClick={SignOpen}>Already have an account? <p onClick={SignOpen}>Sign in</p></button>
+                                    <button className='LoginAlready' onClick={SignOpen}>Don't have an account? <p onClick={SignOpen}>Sign in</p></button>
                                 </div>
                             </div>
                         </div>

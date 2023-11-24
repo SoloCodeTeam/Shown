@@ -4,10 +4,11 @@ import './style.css';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const LoginOpen = (e) =>{
-    window.location.pathname = `/Client/${e.target.id}`
-    if(!window.localStorage.getItem("LoginPath")){
-      window.location.pathname = `/login`
-    }
+    // window.location.pathname = `/Client/${e.target.id}`
+    // if(!window.localStorage.getItem("LoginPath")){
+    //   window.location.pathname = `/login`
+    // }
+    window.location.pathname = '/login'
   }
   const SignOpen = (e) =>{
     window.location.pathname = `/sign`

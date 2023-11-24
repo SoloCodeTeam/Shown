@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 15%;
 }
 .SendedComp i{
     font-size: 3vw;
@@ -35,6 +36,9 @@
     .SendedComp a{
         font-size: 2vw;
     }
+    .SendedComp{
+        margin-top: 35%;
+    }
 }
 @media (max-width:650px){
     .SendedComp i{
@@ -52,5 +56,8 @@
         font-size: 4.8vw;
         padding: 2vw;
         margin: 3%;
+    }
+    .SendedComp{
+        margin-top: 60%;
     }
 }
