@@ -27,7 +27,7 @@ function Navbar() {
             <li>Call</li>
             <li>About</li>
             <li>Service</li>
-            <li>
+            <li className='btnlist'>
               <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) =>navlink("/login")} />
             </li>
           </ul>
