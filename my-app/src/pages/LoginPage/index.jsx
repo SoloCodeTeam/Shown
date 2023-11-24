@@ -69,7 +69,7 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
-                                            <input type="submit" value="Log In" className='blueButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
+                                            <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
                                         </span>
                                     </form>
                                 </div>

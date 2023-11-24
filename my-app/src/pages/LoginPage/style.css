@@ -511,7 +511,7 @@ input:focus~.bar:after {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px){
     .ssapd input {
         margin-bottom: 4%;
     }
@@ -544,6 +544,12 @@ input:focus~.bar:after {
     .group {
         width: 80%;
         margin:   20px 0;
+    }
+    .LoginPage {
+        padding: 0 2%;
+    }
+    .ssapdButton{
+        font-size: 16px;
     }
 }
 
