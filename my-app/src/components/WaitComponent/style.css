@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 3%;
+    padding: 5% 3%;
 }
 .Wait .WaitTexts{
     display: flex;
@@ -35,7 +35,7 @@
     background-color: #0F70DA;
 }
 .Wait img{
-    width: 55%;
+    width: 100%;
     margin-left: 5%;
 }
 @media(max-width: 900px) {
@@ -94,9 +94,5 @@
     }
     .Wait .container{
         padding: 10% 5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
 }
