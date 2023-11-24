@@ -28,7 +28,7 @@ function Navbar() {
             <li>About</li>
             <li>Service</li>
             <li>
-              {/* <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} /> */}
+              <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) =>navlink("/login")} />
             </li>
           </ul>
           <div className="ccar">
