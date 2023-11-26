@@ -1,13 +1,9 @@
 import './style.css'
-<<<<<<< HEAD
 import { NavLink } from 'react-router-dom';
-function LoginPage() {
-=======
 import Logoimg from '../../images/Logo.png'
 import BackImg from '../../images/BackImg.png'
 import { SendedComponent } from '../../components/SendedComponent'
 import { useRef } from 'react'
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
 
 function LoginPage() {
     const LoginReves = useRef();
@@ -21,10 +17,7 @@ function LoginPage() {
         LoginReves.current.style.display = "block"
     }
     return (
-<<<<<<< HEAD
 
-=======
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
         <>
             <>
             <div className="Login">
@@ -36,7 +29,6 @@ function LoginPage() {
                     <div className="container">
                         <div className="LoginPagedfDiv">
                             <div className="LoginPageLeftdiv">
-<<<<<<< HEAD
                                 <div className="LoginPagePath">
                                     <a href='/' className='fa-solid fa-caret-left'></a>
                                 </div>
@@ -44,14 +36,12 @@ function LoginPage() {
                                     
                                     <img src="https://shown.io/static/images/logo.svg" alt="" />
                                 </div> */}
-=======
                             <div className="LoginPagePath">
                                 <a href='/' className='fa-solid fa-caret-left'></a>
                             </div>
                                 <div className="LeftLogo">
                                     <img src={Logoimg} alt="" />
                                 </div>
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
                                 <div className="LeftText">
                                     <h2>Create your account</h2>
                                     <p>Quickly sign up with your ads account.</p>
@@ -103,11 +93,8 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
-<<<<<<< HEAD
                                             <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
-=======
                                             <input type="submit" value="Sign Up" className='blueButton' onClick={SignFunct} />
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
                                         </span>
                                     </form>
                                     <button className='LoginAlready' onClick={LoginOpen}>Already have an account? <p onClick={LoginOpen}>Sign in</p></button>
