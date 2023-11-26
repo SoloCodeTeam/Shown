@@ -4,7 +4,7 @@ import "./style.css"
 function HomeSectionComponents() {
     return (
       <div>
-        <div className='HomeSectionComponents'>
+        <div className='HomeSectionComponents'  id='4'>
         <div className="container">
           <div className="sectioncard sectioncardrow">
             <div className="sectionCardLeft">

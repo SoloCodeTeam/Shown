@@ -25,7 +25,7 @@ function Navbar() {
           <ul className={isOpen ? 'nav-links showNav' : 'nav-links'}>
             <li><a href="tel:+998940808441">Call</a></li>
             <li><a href="#3">About</a></li>
-            <li>Service</li>
+            <li><a href="#4">Service</a></li>
             <li className='btnlist'>
               <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) =>navlink("/login")} />
             </li>

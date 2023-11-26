@@ -1,3 +1,6 @@
+.HomeSectionComponents{
+    padding-bottom: 5%;
+}
 .sectioncardrow {
     flex-direction: row-reverse;
     padding-top: 80px;
