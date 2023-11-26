@@ -67,16 +67,10 @@ function LoginPage() {
                                 <div className="LoginPagePath">
                                     <a href='/' className='fa-solid fa-caret-left'></a>
                                 </div>
-                                {/* <div className="LeftLogo">
-                                    
-                                    <img src="https://shown.io/static/images/logo.svg" alt="" />
-                                </div> */}
                             <div className="LoginPagePath">
                                 <a onClick={() => navlink("/")} className='fa-solid fa-caret-left'></a>
                             </div>
-                                <div className="LeftLogo">
-                                    <img src={Logoimg} alt="" />
-                                </div>
+                            <h1>Omega</h1>
                                 <div className="LeftText">
                                     <h2>Create your account</h2>
                                     <p>Quickly sign up with your ads account.</p>

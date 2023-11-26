@@ -20,9 +20,7 @@ export function SignPage() {
                                 <div className="LoginPagePath">
                                     <a onClick={() => navlink("/")} className='fa-solid fa-caret-left'></a>
                                 </div>
-                                <div className="LeftLogo">
-                                    <img src={Logoimg} alt="" />
-                                </div>
+                                <h1>Omega</h1>
                                 <div className="LeftText">
                                     <h2>Welcome back</h2>
                                     <p>Enter your account</p>

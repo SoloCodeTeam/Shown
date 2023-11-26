@@ -6,6 +6,9 @@
     align-items: center;
     margin: auto;
 }
+h1{
+    text-align: center;
+}
 .SignPage{
     padding: 2% 0;
     border-radius: 3vw;
@@ -18,6 +21,9 @@
 .LeftText p{
     padding: 10px;
 }
+.LeftText h2{
+    width: max-content;
+}
 .invalidText {
     color: red;
     text-align: center;
@@ -25,7 +31,12 @@
     padding: 10px;
 }
 @media (max-width: 650px) {
+    .Sign{
+        background-color: #f6f8ff;
+    }
     .SignPage{
-        width: fit-content;
+        background-color: white;
+        width: max-content;
+        border-radius: 4vw;
     }
 }
