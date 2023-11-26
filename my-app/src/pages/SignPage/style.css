@@ -1,0 +1,23 @@
+.Sign{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.SignPage{
+    padding: 2% 0;
+    border-radius: 3vw;
+    width: 40%;
+    background-color: #f6f8ff;
+}
+.SignPage .LoginPagedLeftdiv{
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    .SignPage{
+        width: fit-content;
+    }
+}

@@ -1,7 +1,7 @@
 .ClientPanelSidebar{
     width: max-content;
     background-color: rgb(242, 242, 242);
-    border-right: .1vw solid rgb(169, 168, 168);
+    /* border-right: .1vw solid rgb(169, 168, 168); */
     height: 100vh;
     position: fixed;
     display: flex;
@@ -48,6 +48,7 @@
     color: rgb(51, 51, 51);
     cursor: default;
     transition: .2s;
+    background: none;
 }
 .ClientPanelSidebar .sidebottom button:hover{
     transform: translateX(1vw);
