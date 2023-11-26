@@ -1,18 +1,12 @@
 import './style.css'
-<<<<<<< HEAD
-import { NavLink } from 'react-router-dom';
-=======
->>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
 import Logoimg from '../../images/Logo.png'
-import axios from "axios"
+// import axios from "axios"
+import axios from 'axios'
 import './style.css'
 import BackImg from '../../images/BackImg.png'
 import { SendedComponent } from '../../components/SendedComponent'
 import { useRef } from 'react'
-<<<<<<< HEAD
-=======
 import { useNavigate } from 'react-router-dom'
->>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
 
 function LoginPage() {
     const signName = useRef()
@@ -59,10 +53,6 @@ function LoginPage() {
         LoginReves.current.style.display = "block"
     }
     return (
-<<<<<<< HEAD
-
-=======
->>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
         <>
             <>
             <div className="Login">
@@ -138,12 +128,7 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
-<<<<<<< HEAD
-                                            <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
-                                            <input type="submit" value="Sign Up" className='blueButton' onClick={SignFunct} />
-=======
                                             <input type="submit" value="Sign Up" className='blueButton'/>
->>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
                                         </span>
                                     </form>
                                     <button className='LoginAlready' onClick={LoginOpen}>Already have an account? <p onClick={LoginOpen}>Sign in</p></button>

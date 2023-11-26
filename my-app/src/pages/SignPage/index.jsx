@@ -3,8 +3,9 @@ import Logoimg from '../../images/Logo.png'
 import { useNavigate } from 'react-router-dom'
 import './style.css'
 import BackImg from '../../images/BackImg.png'
-
+import { useRef } from 'react'
 export function SignPage() {
+    const invalidText= useRef();
     const navlink = useNavigate()
     const SignOpen = (e) =>{
         navlink(`/sign`)
@@ -26,8 +27,16 @@ export function SignPage() {
                                     <h2>Welcome back</h2>
                                     <p>Enter your account</p>
                                 </div>
+                                <span className='invalidText' ref={invalidText}>
+                                    <h5 >
+                                    Wrong username or password.
+                                    </h5>
+                                </span>
                                 <div className="LEftInputs">
-                                    <form onSubmit={(e) => {e.preventDefault();navlink(`/Client/other`)}}>
+                                    <form onSubmit={(e) => {e.preventDefault();
+                                    invalidText.current.style.display="block"
+                                        // navlink(`/Client/other`)
+                                        }}>
                                         <div class="groupW100">
                                             <input type="email" required />
                                             <span class="highlightW100"></span>

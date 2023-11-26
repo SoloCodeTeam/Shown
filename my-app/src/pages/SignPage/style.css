@@ -15,7 +15,15 @@
 .SignPage .LoginPagedLeftdiv{
     width: 100%;
 }
-
+.LeftText p{
+    padding: 10px;
+}
+.invalidText {
+    color: red;
+    text-align: center;
+    display: none;
+    padding: 10px;
+}
 @media (max-width: 650px) {
     .SignPage{
         width: fit-content;
