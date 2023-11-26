@@ -17,11 +17,8 @@ function Navbar() {
     <div className="nav">
       <div className="container">
         <nav>
-<<<<<<< HEAD
           <div className="logo"><img src="https://shown.io/static/images/logo.svg" alt="eror" /></div>
-=======
           <div className="logo"><img src={Logoimg} alt="eror"/></div>
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
           <ul className={isOpen ? 'nav-links showNav' : 'nav-links'}>
             <li><a href="tel:+998940808441">Call</a></li>
             <li><a href="#3">About</a></li>

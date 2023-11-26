@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 
 /* .LoginPage{
     overflow: hidden;
     transition: .3s;
-=======
 .Login{
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -606,17 +603,15 @@ input:focus~.bar:after {
         width: 100%;
         margin:   20px 0;
     }
-<<<<<<< HEAD
     .LoginPage {
         padding: 0 2%;
     }
     .ssapdButton{
         font-size: 16px;
-=======
+    }
     .LoginAlready{
         font-size: 2vw;
     }
->>>>>>> 5ca4995916ce777ddbf679364ff204a1d127870d
 }
 
 @media (max-width: 650px){
@@ -654,5 +649,4 @@ input:focus~.bar:after {
     .LoginAlready{
         font-size: 4vw;
     }
-}
 }
