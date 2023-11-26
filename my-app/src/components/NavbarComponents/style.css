@@ -94,6 +94,8 @@
   text-decoration: underline;
 }
 @media (min-width: 768px) {
+  
+
   .menu {
     display: none;
   }
@@ -106,8 +108,16 @@
   .buttons {
     display: block;
   }
+  .nav-links li button{
+    display: none;
+  }
 }
 @media (max-width: 767px) {
+  .wws {
+    font-size: 18px !important;
+    width: 200px;
+  }
+
   .nav-links {
     padding: 10px 20px;
     background-color: #fff;

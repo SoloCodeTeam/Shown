@@ -1,5 +1,6 @@
 .Wait{
     background-color: rgb(246, 246, 246);
+    padding: 50px 0;
 }
 .Wait .container{
     display: flex;
@@ -34,10 +35,10 @@
     background-color: #0F70DA;
 }
 .Wait img{
-    width: 55%;
+    width: 100%;
     margin-left: 5%;
 }
-@media(max-width: 900px) {
+@media(max-width: 940px) {
     .Wait h1{
         font-size: 3vw;
     }
@@ -51,7 +52,7 @@
         padding: 1% 10%;
     }
     .Wait img{
-        width: 50%;
+        width: 60%;
     }
 }
 @media(max-width: 768px) {
@@ -85,5 +86,19 @@
     .Wait a{
         font-size: 2.5vw;
         padding: 1% 10%;
+    }
+}
+@media(max-width: 450px) {
+    .Wait h1{
+        font-size: 7.5vw;
+    }
+    .Wait p{
+        margin: 10% 0;
+        font-size: 5vw;
+        width: 100%;
+    }
+    .Wait a{
+        font-size: 5vw;
+        padding: 2% 12%;
     }
 }

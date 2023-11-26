@@ -8,12 +8,11 @@ function Navbar() {
         <nav>
           <div className="logo"><img src="https://shown.io/static/images/logo.svg" alt="eror" /></div>
           <ul className={isOpen ? 'nav-links showNav' : 'nav-links'}>
-            <li>Main</li>
-            <li>Call</li>
-            <li>About</li>
+            <li><a href="tel:+998940808441">Call</a></li>
+            <li><a href="#3">About</a></li>
             <li>Service</li>
-            <li>
-              {/* <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} /> */}
+            <li className='ww'>
+              <button className='blueButton wws' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`}>Log In</button>
             </li>
           </ul>
           <div className="ccar">
