@@ -1,8 +1,10 @@
 import React from 'react'
 // import img5 from '../../images/img5.png'
 import img4 from '../../images/img4.png'
+import { useNavigate } from 'react-router-dom'
 import "./style.css"
 function HomeHeaderComponent() {
+  const navlink = useNavigate()
   return (
     <div>
       <>
@@ -23,7 +25,7 @@ function HomeHeaderComponent() {
                     </div>
                   </div>
                   <div className="homeCardButton">
-                    <a href='#' className='blueButton'>Create a free account</a>
+                    <a onClick={() => {navlink("/sign")}} className='blueButton'>Create a free account</a>
                     <br />
                     <p>1358 companies signed up in the last week alone!</p>
                   </div>

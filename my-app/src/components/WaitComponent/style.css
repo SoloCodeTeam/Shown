@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 3%;
+    padding: 5% 3%;
 }
 .Wait .WaitTexts{
     display: flex;
@@ -14,7 +14,8 @@
     align-items: start;
     justify-content: center;
 }
-.Wait h1{
+.Wait h1{   
+    /* font-size: 2.5vw; */
     color: black;
 }
 .Wait p{
@@ -94,10 +95,6 @@
     }
     .Wait .container{
         padding: 10% 5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
 }
 @media(max-width: 450px) {

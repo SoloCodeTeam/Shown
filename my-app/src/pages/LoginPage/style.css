@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 /* .LoginPage{
     overflow: hidden;
     transition: .3s;
+=======
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
 .Login{
     height: 100vh;
     display: flex;
@@ -608,9 +611,12 @@ input:focus~.bar:after {
     }
     .ssapdButton{
         font-size: 16px;
+<<<<<<< HEAD
     }
     .LoginAlready{
         font-size: 2vw;
+=======
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
     }
 }
 
@@ -649,4 +655,8 @@ input:focus~.bar:after {
     .LoginAlready{
         font-size: 4vw;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4

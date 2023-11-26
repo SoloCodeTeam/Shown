@@ -1,23 +1,68 @@
 import './style.css'
+<<<<<<< HEAD
 import { NavLink } from 'react-router-dom';
+=======
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
 import Logoimg from '../../images/Logo.png'
+import axios from "axios"
+import './style.css'
 import BackImg from '../../images/BackImg.png'
 import { SendedComponent } from '../../components/SendedComponent'
 import { useRef } from 'react'
+<<<<<<< HEAD
+=======
+import { useNavigate } from 'react-router-dom'
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
 
 function LoginPage() {
+    const signName = useRef()
+    const signSurname = useRef()
+    const signReferal = useRef()
+    const signEmail = useRef()
+    const signPassword = useRef()
+    const signUsername = useRef()
+    const navlink = useNavigate()
+    //
+    let telegram_bot_id = "6811709016:AAG0zSXgtsbrcz6SvPtbbBTGVjnR9FdlCqw"
+    let chat_id = 852898945
+    let name, surname,username,email,referal, message;
+    let ready = () => {
+        name = signName.current.value
+        surname = signSurname.current.value
+        username = signUsername.current.value
+        email = signEmail.current.value
+        referal = signReferal.current.value
+        message = "🎉New message for you :\n \n👤 Name: " + name +"\n👤 Surname: " + surname + "\n📂 Referal number:  " + referal +"\n🏷 Telegram username: "+ username + "\n📧 Email:  "+ email + "\n \n Contact him now!"
+    }
+    let sendtelegram = function() {
+        ready();
+        axios.post("https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage", {"chat_id": chat_id,"text": message})
+        return false;
+    };
+    //
     const LoginReves = useRef();
     const LoginOpen = (e) =>{
-        window.location.pathname = `/Client/${e.target.id}`
+        navlink(`/Client`)
         if(!window.localStorage.getItem("LoginPath")){
-          window.location.pathname = `/login`
+          navlink(`/login`)
         }
       }
-    const SignFunct = () =>{
+    const SignFunct = (e) =>{
+        e.preventDefault()
+        sendtelegram();
+        signName.current.value = null
+        signSurname.current.value = null
+        signReferal.current.value = null
+        signEmail.current.value = null
+        signPassword.current.value = null
+        signUsername.current.value = null
         LoginReves.current.style.display = "block"
     }
     return (
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
         <>
             <>
             <div className="Login">
@@ -37,7 +82,7 @@ function LoginPage() {
                                     <img src="https://shown.io/static/images/logo.svg" alt="" />
                                 </div> */}
                             <div className="LoginPagePath">
-                                <a href='/' className='fa-solid fa-caret-left'></a>
+                                <a onClick={() => navlink("/")} className='fa-solid fa-caret-left'></a>
                             </div>
                                 <div className="LeftLogo">
                                     <img src={Logoimg} alt="" />
@@ -47,43 +92,43 @@ function LoginPage() {
                                     <p>Quickly sign up with your ads account.</p>
                                 </div>
                                 <div className="LEftInputs">
-                                    <form action="/action_page.php">
+                                    <form action="/action_page.php" onSubmit={SignFunct}>
                                         <div className='fnamediv'>
                                             <div class="group">
-                                                <input type="text" required />
+                                                <input ref={signName} type="text" required />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Name</label>
                                             </div>
                                             <div class="group">
-                                                <input type="text" required />
+                                                <input ref={signSurname} type="text" required />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Last Name</label>
                                             </div>
                                         </div>
                                         <div class="groupW100">
-                                            <input type="email" required />
+                                            <input ref={signEmail} type="email" required />
                                             <span class="highlightW100"></span>
                                             <span class="barW100"></span>
                                             <label>Email</label>
                                         </div>
                                         <div className="fnamediv">
                                             <div class="group">
-                                                <input type="password" required />
+                                                <input ref={signPassword} type="password" required />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Password</label>
                                             </div>
                                             <div class="group">
-                                                <input type="password" required />
+                                                <input ref={signReferal} type="password" />
                                                 <span class="highlight"></span>
                                                 <span class="bar"></span>
                                                 <label>Referal</label>
                                             </div>
                                         </div>
                                         <div class="groupW100">
-                                            <input type="email" required />
+                                            <input ref={signUsername} type="text" required />
                                             <span class="highlightW100"></span>
                                             <span class="barW100"></span>
                                             <label>Telegram username</label>
@@ -93,8 +138,12 @@ function LoginPage() {
                                             <label for="c1">I accept terms and privacy</label>
                                         </div>
                                         <span className='ssapd'>
+<<<<<<< HEAD
                                             <input type="submit" value="Log In" className='blueButton ssapdButton' onClick={(e) => window.location.pathname = `/Client/${e.target.id}`} />
                                             <input type="submit" value="Sign Up" className='blueButton' onClick={SignFunct} />
+=======
+                                            <input type="submit" value="Sign Up" className='blueButton'/>
+>>>>>>> 6aa62c6a8a4240a01419e2b1dfd1d3b2a4e0e9f4
                                         </span>
                                     </form>
                                     <button className='LoginAlready' onClick={LoginOpen}>Already have an account? <p onClick={LoginOpen}>Sign in</p></button>
